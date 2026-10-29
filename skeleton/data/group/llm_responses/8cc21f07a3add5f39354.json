@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:08:06",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"amcar treff\",\n      \"date\": null,\n      \"start_time\": null,\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Kommunehuset\",\n      \"place\": \"Vinstra\",\n      \"municipality\": null,\n      \"category\": \"other\",\n      \"organizer\": \"Sjoa fisk og diesel\",\n      \"contact_url\": null,\n      \"description\": null,\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"amcar treff\",\n        \"date\": null,\n        \"venue\": \"Kommunehuset\",\n        \"location\": \"Vinstra ved Kommunehuset\"\n      }\n    }\n  ],\n  \"notes\": \"No date or time given.\"\n}\n```"
+}

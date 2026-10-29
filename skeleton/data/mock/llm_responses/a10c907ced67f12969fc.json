@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:49:09",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Lom\", \"lookup\": 1, \"match\": \"Bergomsvegen 40\", \"reason\": \"Bergomsvegen 40 is an address in Lom\"}}\n```"
+}

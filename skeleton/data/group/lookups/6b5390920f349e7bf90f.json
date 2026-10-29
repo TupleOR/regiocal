@@ -1,0 +1,14 @@
+{
+  "tool": "search_business",
+  "query": "sel samfunnshus",
+  "key": "6b5390920f349e7bf90f",
+  "results": [
+    {
+      "name": "Sel Samfunnshus",
+      "type": "business",
+      "municipality": "Sel",
+      "in_region": true
+    }
+  ],
+  "error": null
+}

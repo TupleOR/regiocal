@@ -1,0 +1,63 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Aktivitetskalender//Walking skeleton//NB
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Aktiviteter i Nord-Gudbrandsdal
+X-WR-TIMEZONE:Europe/Oslo
+X-WR-CALDESC:Kilder: Stedsnavn og adresser © Kartverket (CC BY 4.0)\, http
+ s://www.kartverket.no\, lisens: https://creativecommons.org/licenses/by/4.
+ 0/deed.no. Inneholder data under Norsk lisens for offentlige data (NLOD) t
+ ilgjengeliggjort av Brønnøysundregistrene\, https://data.brreg.no/enhets
+ registeret\, lisens: https://data.norge.no/nlod/no/2.0. Kommunen for hvert
+  arrangement er utledet av denne tjenesten ved oppslag i registrene. Regis
+ tereierne står ikke bak denne tjenesten.
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:78cb30d092fe@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261103T180000
+RRULE:FREQ=WEEKLY;UNTIL=20261130T225959Z
+SUMMARY:Buldring på Beta
+LOCATION:Beta\, Otta (Sel)
+DESCRIPTION:Arrangør: Klatreklubben Krittpose\nBuldring på Beta hver tirs
+ dag.
+CATEGORIES:sports,sports
+END:VEVENT
+BEGIN:VEVENT
+UID:62152ffc6a11@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261114T190000
+SUMMARY:Fluebinderkonkuranse
+LOCATION:Amfi Otta (Sel)
+DESCRIPTION:Arrangør: Rondane snøggfiskarlag\nFluebinderkonkuranse arrang
+ ert av Rondane snøggfiskarlag.
+CATEGORIES:culture
+END:VEVENT
+BEGIN:VEVENT
+UID:fdd567712a07@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261119T190000
+SUMMARY:Kaffekveld
+LOCATION:Bjorli (Lesja)
+DESCRIPTION:Arrangør: Lesja kaffeklubb\nKaffekveld på Bjorli. Ta med kaff
+ e og godt humør!
+CATEGORIES:culture
+END:VEVENT
+END:VCALENDAR

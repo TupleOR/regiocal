@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:47:11",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"julekonsert\",\n      \"date\": \"2026-11-29\",\n      \"start_time\": \"18:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Lesja kyrkje\",\n      \"place\": \"Lesja\",\n      \"municipality\": \"Lesja\",\n      \"category\": \"music\",\n      \"organizer\": \"Songlaget Tonefall\",\n      \"contact_url\": null,\n      \"description\": \"Songlaget Tonefall held julekonsert i Lesja kyrkje. Fri inngang, kollekt ved utgangen.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"julekonsert\",\n        \"date\": \"sundag 29. november\",\n        \"venue\": \"Lesja kyrkje\",\n        \"location\": \"Lesja kyrkje\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

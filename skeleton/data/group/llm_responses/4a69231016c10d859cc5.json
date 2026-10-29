@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:10:35",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Nord-Fron\", \"lookup\": 1, \"match\": \"Vinstra\", \"reason\": \"Vinstra is a place in Nord-Fron, according to the place-name register.\"}}\n```"
+}

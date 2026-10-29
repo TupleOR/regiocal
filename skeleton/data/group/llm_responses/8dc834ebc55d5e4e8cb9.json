@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:10:53",
+  "response": "```json\n{\"answer\": {\"municipality\": null, \"lookup\": null, \"match\": null, \"reason\": \"Neither the business register nor the place-name register could find 'Beitosdølen'. It is not possible to determine the municipality from this information.\"}}\n```"
+}

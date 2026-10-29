@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:48:10",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"BLUESAFTEN PÅ DOMBÅS\",\n      \"date\": \"2026-11-27\",\n      \"start_time\": \"21:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Puben, Dombås hotell\",\n      \"place\": \"Dombås\",\n      \"municipality\": \"Dovre\",\n      \"category\": \"music\",\n      \"organizer\": \"Bluesklubben Tolvtakt\",\n      \"contact_url\": null,\n      \"description\": \"Bluesaften med lokale musikere på Dombås hotell.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"🎶 BLUESAFTEN PÅ DOMBÅS 🎶\",\n        \"date\": \"Fredag 27/11\",\n        \"venue\": \"Puben, Dombås hotell\",\n        \"location\": \"Dombås hotell\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

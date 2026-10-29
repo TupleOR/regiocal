@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:09:07",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"vaffeldag i parken\",\n      \"date\": \"2026-11-05\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": null,\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"other\",\n      \"organizer\": \"Otta vaffelklubb\",\n      \"contact_url\": null,\n      \"description\": \"Vaffeldag i parken på Otta med mulighet for å hilse på dyr.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"vaffeldag i parken\",\n        \"date\": \"Neste torsdag\",\n        \"venue\": \"parken\",\n        \"location\": \"parken på Otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

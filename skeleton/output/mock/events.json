@@ -1,0 +1,214 @@
+{
+  "schema_version": "1",
+  "region": "Nord-Gudbrandsdal",
+  "municipalities": [
+    "Dovre",
+    "Lesja",
+    "Lom",
+    "Sel",
+    "Skjåk",
+    "Vågå"
+  ],
+  "period": {
+    "from": "2026-10-30",
+    "to": "2026-11-30"
+  },
+  "categories": {
+    "music": "Musikk",
+    "sports": "Idrett",
+    "culture": "Kultur",
+    "course": "Kurs",
+    "outdoor": "Friluftsliv",
+    "meeting": "Møte",
+    "other": "Annet"
+  },
+  "tags": {
+    "music": "Musikk",
+    "sports": "Idrett og trening",
+    "outdoor": "Ute",
+    "family": "For barn og familier",
+    "free": "Gratis",
+    "newcomers": "Nye deltakere velkommen"
+  },
+  "sources": [
+    {
+      "name": "Kartverket",
+      "data": "stedsnavn og adresser",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/deed.no",
+      "source_url": "https://www.kartverket.no",
+      "credit": "Stedsnavn og adresser © Kartverket (CC BY 4.0)"
+    },
+    {
+      "name": "Brønnøysundregistrene",
+      "data": "Enhetsregisteret",
+      "licence": "NLOD 2.0",
+      "licence_url": "https://data.norge.no/nlod/no/2.0",
+      "source_url": "https://data.brreg.no/enhetsregisteret",
+      "credit": "Inneholder data under Norsk lisens for offentlige data (NLOD) tilgjengeliggjort av Brønnøysundregistrene"
+    }
+  ],
+  "sources_note": "Kommunen for hvert arrangement er utledet av denne tjenesten ved oppslag i registrene. Registereierne står ikke bak denne tjenesten.",
+  "events": [
+    {
+      "id": "a12c10f9de0d",
+      "title": "Sjakklubben Tenkepausen",
+      "start": "2026-11-03T18:00:00+01:00",
+      "end": "2026-11-03T21:00:00+01:00",
+      "recurrence": "weekly",
+      "venue": "Sel bibliotek på Otta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "category": "culture",
+      "tags": [
+        "newcomers"
+      ],
+      "organizer": "Sjakklubben Tenkepausen",
+      "contact_url": "https://example.org/otta-sjakklubb",
+      "description": "Sjakklubb for alle nivåer. Brett og brikker finnes."
+    },
+    {
+      "id": "1b8c57bb87a7",
+      "title": "Kurs i førstehjelp",
+      "start": "2026-11-05T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Dombås skole, gymsalen",
+      "place": "Dombås",
+      "municipality": "Dovre",
+      "category": "course",
+      "tags": [
+        "free",
+        "newcomers"
+      ],
+      "organizer": "Førstehjelpsgjengen Plaster og Puls",
+      "contact_url": null,
+      "description": "Kurs i førstehjelp på Dombås skole. Gratis og åpent for alle over 12 år."
+    },
+    {
+      "id": "a239474b8e7a",
+      "title": "Strikkekafé",
+      "start": "2026-11-11T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Heidal bygdahus",
+      "place": "Heidal",
+      "municipality": "Sel",
+      "category": "culture",
+      "tags": [
+        "newcomers"
+      ],
+      "organizer": "Strikkelaget Rett og Vrang",
+      "contact_url": null,
+      "description": "Strikkekafé på Heidal bygdahus. Ta med strikketøyet ditt, kaffe og kaker."
+    },
+    {
+      "id": "f99833b3b453",
+      "title": "Juleutstilling",
+      "start": "2026-11-14T11:00:00+01:00",
+      "end": "2026-11-14T16:00:00+01:00",
+      "recurrence": null,
+      "venue": "Vågå kulturhus",
+      "place": "Vågåmo",
+      "municipality": "Vågå",
+      "category": "culture",
+      "tags": [
+        "free",
+        "newcomers"
+      ],
+      "organizer": "Penselvennene i Vågå",
+      "contact_url": null,
+      "description": "Juleutstilling med bilder, salg av kort og bilder, kaffe og vafler."
+    },
+    {
+      "id": "b101614b0634",
+      "title": "Visekveld",
+      "start": "2026-11-20T19:30:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Pillarguri Kafe",
+      "place": null,
+      "municipality": "Sel",
+      "category": "music",
+      "tags": [
+        "music",
+        "newcomers"
+      ],
+      "organizer": "Visegjengen Strofe",
+      "contact_url": null,
+      "description": "Visekveld med lokale visesangere og åpen scene."
+    },
+    {
+      "id": "fe05734d309a",
+      "title": "Turgjengen Toppturen: Fellestur til Lomseggen",
+      "start": "2026-11-21T10:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Fossbergom kyrkje",
+      "place": "Lom",
+      "municipality": "Lom",
+      "category": "outdoor",
+      "tags": [
+        "outdoor",
+        "free",
+        "newcomers"
+      ],
+      "organizer": "Turgjengen",
+      "contact_url": "https://example.org/lom-turlag",
+      "description": "Fellestur til Lomseggen lørdag 21. november. Ta med mat og drikke, gode sko og varme klær. Turen er gratis og åpen for alle."
+    },
+    {
+      "id": "80c0208f101c",
+      "title": "BLUESAFTEN PÅ DOMBÅS",
+      "start": "2026-11-27T21:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Puben, Dombås hotell",
+      "place": "Dombås",
+      "municipality": "Dovre",
+      "category": "music",
+      "tags": [
+        "music"
+      ],
+      "organizer": "Bluesklubben Tolvtakt",
+      "contact_url": null,
+      "description": "Bluesaften med lokale musikere på Dombås hotell."
+    },
+    {
+      "id": "6342e7307f80",
+      "title": "Juleverksted for barn",
+      "start": "2026-11-28T12:00:00+01:00",
+      "end": "2026-11-28T15:00:00+01:00",
+      "recurrence": null,
+      "venue": "peisestua, Bergomsvegen 40",
+      "place": null,
+      "municipality": "Lom",
+      "category": "culture",
+      "tags": [
+        "family",
+        "free"
+      ],
+      "organizer": "Barnegjengen Glitter og Lim",
+      "contact_url": null,
+      "description": "Juleverksted for barn med julepyntlaging og pepperkakebaking."
+    },
+    {
+      "id": "18dc5b71e2d4",
+      "title": "Julekonsert",
+      "start": "2026-11-29T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Lesja kyrkje",
+      "place": "Lesja",
+      "municipality": "Lesja",
+      "category": "music",
+      "tags": [
+        "music",
+        "free"
+      ],
+      "organizer": "Songlaget Tonefall",
+      "contact_url": null,
+      "description": "Songlaget Tonefall held julekonsert i Lesja kyrkje. Fri inngang, kollekt ved utgangen."
+    }
+  ]
+}

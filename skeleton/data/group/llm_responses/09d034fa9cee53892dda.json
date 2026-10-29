@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:09:17",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"markering av den store lefsedagen\",\n      \"date\": \"2026-10-24\",\n      \"start_time\": null,\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": null,\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"culture\",\n      \"organizer\": null,\n      \"contact_url\": null,\n      \"description\": \"Markering av den store lefsedagen på Otta.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"markering av den store lefsedagen\",\n        \"date\": \"24.10.2026\",\n        \"venue\": null,\n        \"location\": \"Otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

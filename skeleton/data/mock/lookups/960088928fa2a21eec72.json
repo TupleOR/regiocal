@@ -1,0 +1,14 @@
+{
+  "tool": "search_place",
+  "query": "Sødorp",
+  "key": "960088928fa2a21eec72",
+  "results": [
+    {
+      "name": "Sødorp",
+      "type": "Bygdelag (bygd)",
+      "municipality": "Nord-Fron",
+      "in_region": false
+    }
+  ],
+  "error": null
+}

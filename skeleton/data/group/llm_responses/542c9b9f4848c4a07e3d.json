@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-29T00:24:08",
+  "response": "```json\n{\"answers\": {\n  \"category\": {\"choice\": \"outdoor\"},\n  \"music\": {\"value\": false, \"quote\": null},\n  \"sports\": {\"value\": true, \"quote\": \"Klatreklubben\"},\n  \"outdoor\": {\"value\": true, \"quote\": \"Klatreklubben\"},\n  \"family\": {\"value\": false, \"quote\": null},\n  \"free\": {\"value\": false, \"quote\": null},\n  \"newcomers\": {\"value\": true, \"quote\": \"Alle er velkommen\"}\n}}\n```"
+}

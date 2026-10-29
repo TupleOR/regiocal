@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:46:38",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Bokbad på Lom bibliotek\",\n      \"date\": \"2026-11-19\",\n      \"start_time\": null,\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Lom bibliotek\",\n      \"place\": \"Lom\",\n      \"municipality\": \"Lom\",\n      \"category\": \"culture\",\n      \"organizer\": \"Leseringen Bokormen\",\n      \"contact_url\": null,\n      \"description\": \"Lokale forfattere forteller om nye bøker.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Bokbad på Lom bibliotek\",\n        \"date\": \"19. november\",\n        \"venue\": \"Lom bibliotek\",\n        \"location\": \"Lom bibliotek\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:08:16",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Hamar speedflyer og jazz ensemble\",\n      \"date\": \"2028-04-15\",\n      \"start_time\": null,\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Gjøvik\",\n      \"place\": \"Gjøvik\",\n      \"municipality\": null,\n      \"category\": \"music\",\n      \"organizer\": \"Hamar speedflyer og jazz ensemble\",\n      \"contact_url\": null,\n      \"description\": \"Hamar speedflyer og jazz ensemble samles på Gjøvik.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Hamar speedflyer og jazz ensemble\",\n        \"date\": \"den 15.04.28\",\n        \"venue\": \"Gjøvik\",\n        \"location\": \"Gjøvik\"\n      }\n    }\n  ],\n  \"notes\": \"Date is in the future, but year is missing. Assuming 2028.\"\n}\n```"
+}

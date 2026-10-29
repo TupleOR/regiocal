@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:46:26",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Strikkekafé\",\n      \"date\": \"2026-11-11\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Heidal bygdahus\",\n      \"place\": \"Heidal\",\n      \"municipality\": \"Sel\",\n      \"category\": \"culture\",\n      \"organizer\": \"Strikkelaget Rett og Vrang\",\n      \"contact_url\": null,\n      \"description\": \"Strikkekafé på Heidal bygdahus. Ta med strikketøyet ditt, kaffe og kaker.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Strikkekafé\",\n        \"date\": \"onsdag 11. november\",\n        \"venue\": \"Heidal bygdahus\",\n        \"location\": \"Heidal bygdahus\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

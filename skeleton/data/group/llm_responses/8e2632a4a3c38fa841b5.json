@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:08:36",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"trening i Namsos\",\n      \"date\": \"2027-05-01\",\n      \"start_time\": null,\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": null,\n      \"place\": \"Namsos\",\n      \"municipality\": null,\n      \"category\": \"sports\",\n      \"organizer\": \"Sognefjellets klatrekamerater og fiskarlaug\",\n      \"contact_url\": null,\n      \"description\": \"Årets første trening.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"trening i Namsos\",\n        \"date\": \"i mai neste år\",\n        \"venue\": null,\n        \"location\": \"i Namsos\"\n      }\n    }\n  ],\n  \"notes\": \"Namsos is not in Nord-Gudbrandsdal. Date is resolved to 2027-05-01.\"\n}\n```"
+}

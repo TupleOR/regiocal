@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:49:02",
+  "response": "```json\n{\"answer\": {\"municipality\": null, \"lookup\": null, \"match\": null, \"reason\": \"The venue 'Kaffebrenneriet' is not found in the business register. The submission does not contain any place names that can be looked up.\"}}\n```"
+}

@@ -1,0 +1,255 @@
+{
+  "_note": "Answer key for the GROUP evaluation set. Submissions and answers written by A (see answers.txt). On A's request Claude moved five dates into the calendar window, added start times, and set outcomes and categories to the system's rules; the changes are listed in answers.txt and in git history.",
+  "submissions": {
+    "001 LKF.txt": {
+      "outcome": "published",
+      "trap": "place name only (Bjorli -> Lesja); two contact persons and a number must not appear",
+      "events": [
+        {
+          "title_contains": "kaffekveld",
+          "start": "2026-11-19T19:00",
+          "municipality": "Lesja"
+        }
+      ],
+      "must_not_appear": [
+        "Oppdiktet",
+        "Conny",
+        "1234"
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "002 Julebuldring.txt": {
+      "outcome": "needs_review",
+      "trap": "venue 'Beta' can't be placed in any municipality",
+      "issue": [
+        "unknown_location",
+        "unverified_location"
+      ],
+      "category": "sports",
+      "tags": {
+        "music": false,
+        "sports": true,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": true
+      }
+    },
+    "003 NSJDK.txt": {
+      "outcome": "needs_review",
+      "trap": "clash with 012: same hall, same time, different events",
+      "issue": "clash",
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "004 blabla.txt": {
+      "outcome": "rejected",
+      "trap": "no event information at all",
+      "issue": [
+        "no_event",
+        "missing_required"
+      ]
+    },
+    "005 bblg.txt": {
+      "outcome": "rejected",
+      "trap": "announced months ahead (May 2027): outside the 31-day window",
+      "issue": "outside_window"
+    },
+    "006 rsfl.txt": {
+      "outcome": "published",
+      "trap": "time written as '1900'; Amfi Otta -> Sel",
+      "events": [
+        {
+          "title_contains": "fluebinder",
+          "start": "2026-11-14T19:00",
+          "municipality": "Sel"
+        }
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "007 sfd.txt": {
+      "outcome": "rejected",
+      "trap": "no date; Vinstra is outside the region (organiser's name has 'Sjoa', which is in Sel)",
+      "issue": [
+        "missing_required",
+        "outside_region"
+      ]
+    },
+    "008 sfd2.txt": {
+      "outcome": "rejected",
+      "trap": "identical to 007; rejected events are not de-duplicated, so this is rejected too",
+      "issue": [
+        "missing_required",
+        "outside_region"
+      ]
+    },
+    "009 hsjd.txt": {
+      "outcome": "rejected",
+      "trap": "Gjøvik, outside the region; ambiguous date '15.04.28'",
+      "issue": [
+        "outside_region",
+        "outside_window",
+        "missing_required"
+      ]
+    },
+    "010 vmf.txt": {
+      "outcome": "rejected",
+      "trap": "Beitostølen (misspelt 'Beitosdølen'), outside the region; April 2027",
+      "issue": [
+        "outside_region",
+        "outside_window",
+        "unknown_location"
+      ]
+    },
+    "011 sfkk.txt": {
+      "outcome": "rejected",
+      "trap": "Namsos, outside the region; vague date 'mai neste år'",
+      "issue": [
+        "outside_region",
+        "missing_required",
+        "outside_window"
+      ]
+    },
+    "012 tuba.txt": {
+      "outcome": "needs_review",
+      "trap": "clash with 003",
+      "issue": "clash",
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "013 rfsk.txt": {
+      "outcome": "published",
+      "trap": "weekly activity; time written '1800'; website without https://",
+      "events": [
+        {
+          "title_contains": "buldring",
+          "start": "2026-11-03T18:00",
+          "municipality": "Sel",
+          "recurrence": "weekly"
+        }
+      ],
+      "category": "sports",
+      "tags": {
+        "music": false,
+        "sports": true,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "014 vaffel.txt": {
+      "outcome": "published",
+      "trap": "relative date: 'neste torsdag' received Fri 30.10 -> Thu 5.11",
+      "events": [
+        {
+          "title_contains": "vaffel",
+          "start": "2026-11-05T19:00",
+          "municipality": "Sel"
+        }
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": true,
+        "family": true,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "015 lefse.txt": {
+      "outcome": "rejected",
+      "trap": "date already passed when received",
+      "issue": "in_past"
+    },
+    "016 strikkar.txt": {
+      "outcome": "rejected",
+      "trap": "internal board meeting",
+      "issue": "internal"
+    },
+    "017 fiskekveld.txt": {
+      "outcome": "published",
+      "trap": "same event as 018, sent by another sender",
+      "events": [
+        {
+          "title_contains": "fisk",
+          "start": "2026-11-19T19:00",
+          "municipality": "Sel"
+        }
+      ],
+      "category": "other",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "018 fiskarkveld.txt": {
+      "outcome": "duplicate",
+      "trap": "same event as 017: 'fiskarkveld' vs 'fiskekveld', 'hallen' vs 'Pillargurihallen'",
+      "duplicate_of": "017 fiskekveld.txt",
+      "category": "other",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "019 burnings.txt": {
+      "outcome": "needs_review",
+      "trap": "no start time, no organiser, unclear place 'øya'",
+      "issue": [
+        "missing_start_time",
+        "missing_organizer",
+        "unknown_location",
+        "unverified_location"
+      ],
+      "category": "other",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    }
+  }
+}

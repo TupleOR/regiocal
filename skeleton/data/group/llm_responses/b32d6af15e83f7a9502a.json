@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:07:07",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"kaffekveld\",\n      \"date\": \"2026-11-19\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Bjorli\",\n      \"place\": \"Bjorli\",\n      \"municipality\": \"Lesja\",\n      \"category\": \"meeting\",\n      \"organizer\": \"Lesja kaffeklubb\",\n      \"contact_url\": null,\n      \"description\": \"Kaffekveld på Bjorli. Ta med kaffe og godt humør!\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"kaffekveld\",\n        \"date\": \"den 19.11.2026\",\n        \"venue\": \"Bjorli\",\n        \"location\": \"Bjorli\"\n      }\n    }\n  ],\n  \"notes\": \"Contact information for a person is not included.\"\n}\n```"
+}

@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-29T00:23:28",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Buldring på Beta\",\n      \"date\": \"2026-11-03\",\n      \"start_time\": \"18:00\",\n      \"end_time\": null,\n      \"recurrence\": \"weekly\",\n      \"venue\": \"Beta\",\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"sports\",\n      \"organizer\": \"Klatreklubben Krittpose\",\n      \"contact_url\": \"www.example.org/krittpose\",\n      \"description\": \"Buldring på Beta hver tirsdag.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Buldring på Beta\",\n        \"date\": \"hver tirsdag\",\n        \"venue\": \"Beta\",\n        \"location\": \"Otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

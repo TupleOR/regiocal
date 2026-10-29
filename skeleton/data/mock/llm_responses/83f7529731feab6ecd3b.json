@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:50:55",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Sjakklubben Tenkepausen\",\n      \"date\": \"2026-10-27\",\n      \"start_time\": \"18:00\",\n      \"end_time\": \"21:00\",\n      \"recurrence\": \"weekly\",\n      \"venue\": \"Sel bibliotek på Otta\",\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"meeting\",\n      \"organizer\": \"Sjakklubben Tenkepausen\",\n      \"contact_url\": \"https://example.org/otta-sjakklubb\",\n      \"description\": \"Sjakklubb for alle nivåer. Brett og brikker finnes.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Sjakklubben Tenkepausen\",\n        \"date\": \"hver tirsdag\",\n        \"venue\": \"Sel bibliotek på Otta\",\n        \"location\": \"Sel bibliotek på Otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

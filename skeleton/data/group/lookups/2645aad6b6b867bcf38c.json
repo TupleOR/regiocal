@@ -1,0 +1,56 @@
+{
+  "tool": "search_place",
+  "query": "øya",
+  "key": "2645aad6b6b867bcf38c",
+  "results": [
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Lindesnes",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Frøya",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Øksnes",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Harstad - hárstták",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Herøy",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Hitra",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Kragerø",
+      "in_region": false
+    },
+    {
+      "name": "Øya",
+      "type": "Øy i sjø",
+      "municipality": "Porsgrunn",
+      "in_region": false
+    }
+  ],
+  "error": null
+}

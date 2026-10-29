@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:47:57",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Turgjengen Toppturen: Fellestur til Lomseggen\",\n      \"date\": \"2026-11-21\",\n      \"start_time\": \"10:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Fossbergom kyrkje\",\n      \"place\": \"Lom\",\n      \"municipality\": \"Lom\",\n      \"category\": \"outdoor\",\n      \"organizer\": \"Turgjengen\",\n      \"contact_url\": \"https://example.org/lom-turlag\",\n      \"description\": \"Fellestur til Lomseggen lørdag 21. november. Ta med mat og drikke, gode sko og varme klær. Turen er gratis og åpen for alle.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Turgjengen Toppturen: Fellestur til Lomseggen\",\n        \"date\": \"lørdag 21. november\",\n        \"venue\": \"Fossbergom kyrkje i Lom\",\n        \"location\": \"Fossbergom kyrkje i Lom\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

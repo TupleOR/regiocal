@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:09:27",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Styremøte for styret i Vågå strikkarlag\",\n      \"date\": \"2026-12-15\",\n      \"start_time\": null,\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": null,\n      \"place\": null,\n      \"municipality\": \"Vågå\",\n      \"category\": \"meeting\",\n      \"organizer\": \"Vågå strikkarlag\",\n      \"contact_url\": null,\n      \"description\": null,\n      \"is_public\": false,\n      \"evidence\": {\n        \"title\": \"Styremøte for styret i Vågå strikkarlag\",\n        \"date\": \"den 15.12.2026\",\n        \"venue\": null,\n        \"location\": null\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

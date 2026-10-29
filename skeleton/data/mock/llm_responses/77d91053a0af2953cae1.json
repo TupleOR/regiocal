@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:49:35",
+  "response": "```json\n{\"answers\": {\n  \"category\": {\"choice\": \"culture\"},\n  \"music\": {\"value\": false, \"quote\": null},\n  \"sports\": {\"value\": false, \"quote\": null},\n  \"outdoor\": {\"value\": false, \"quote\": null},\n  \"family\": {\"value\": false, \"quote\": null},\n  \"free\": {\"value\": true, \"quote\": \"Gratis\"},\n  \"newcomers\": {\"value\": false, \"quote\": null}\n}}\n```"
+}

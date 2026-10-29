@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:48:55",
+  "response": "```json\n{\"tool\": \"search_business\", \"query\": \"Kaffebrenneriet\"}\n```"
+}

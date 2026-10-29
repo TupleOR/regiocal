@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:11:22",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Sel\", \"lookup\": 2, \"match\": \"Otta\", \"reason\": \"Otta is a place in Sel, and the earlier step also guessed Sel.\"}}\n```"
+}

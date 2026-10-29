@@ -1,0 +1,44 @@
+{
+  "tool": "search_place",
+  "query": "Vinstra",
+  "key": "26a34d61a4d61c8e4fb9",
+  "results": [
+    {
+      "name": "Vinstra",
+      "type": "Elv",
+      "municipality": "Nord-Fron",
+      "in_region": false
+    },
+    {
+      "name": "Vinstra",
+      "type": "Elv",
+      "municipality": "Sør-Fron",
+      "in_region": false
+    },
+    {
+      "name": "Vinstra",
+      "type": "Elv",
+      "municipality": "Oppdal",
+      "in_region": false
+    },
+    {
+      "name": "Vinstra",
+      "type": "By",
+      "municipality": "Nord-Fron",
+      "in_region": false
+    },
+    {
+      "name": "Vinstra",
+      "type": "Bru",
+      "municipality": "Nord-Fron",
+      "in_region": false
+    },
+    {
+      "name": "Vinstra",
+      "type": "Bru",
+      "municipality": "Nord-Fron",
+      "in_region": false
+    }
+  ],
+  "error": null
+}

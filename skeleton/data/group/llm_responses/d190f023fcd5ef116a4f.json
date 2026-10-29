@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:11:29",
+  "response": "```json\n{\"answer\": {\"municipality\": null, \"lookup\": 1, \"match\": \"Øya\", \"reason\": \"The place name 'Øya' appears in multiple municipalities outside Nord-Gudbrandsdal. No municipality within the region was found.\"}}\n```"
+}

@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:45:51",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"juleutstilling\",\n      \"date\": \"2026-11-14\",\n      \"start_time\": \"11:00\",\n      \"end_time\": \"16:00\",\n      \"recurrence\": null,\n      \"venue\": \"Vågå kulturhus\",\n      \"place\": \"Vågåmo\",\n      \"municipality\": \"Vågå\",\n      \"category\": \"culture\",\n      \"organizer\": \"Penselvennene i Vågå\",\n      \"contact_url\": null,\n      \"description\": \"Juleutstilling med bilder, salg av kort og bilder, kaffe og vafler.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"juleutstilling\",\n        \"date\": \"Lørdag 14. november\",\n        \"venue\": \"Vågå kulturhus\",\n        \"location\": \"Vågå kulturhus, Vågåmo\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

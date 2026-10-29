@@ -1,0 +1,6 @@
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.ics text eol=crlf
+*.json text eol=lf
+skeleton/output/**/*.md text eol=lf

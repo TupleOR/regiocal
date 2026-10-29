@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:11:00",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Namsos\", \"lookup\": 1, \"match\": \"Namsos\", \"reason\": \"Namsos is a town in Namsos municipality, which is outside Nord-Gudbrandsdal.\"}}\n```"
+}

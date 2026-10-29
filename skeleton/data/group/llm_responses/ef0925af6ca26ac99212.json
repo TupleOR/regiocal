@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-29T00:23:50",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"julebuldring\",\n      \"date\": \"2026-11-22\",\n      \"start_time\": \"18:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Beta\",\n      \"place\": null,\n      \"municipality\": null,\n      \"category\": \"sports\",\n      \"organizer\": \"Klatreklubben Krittpose\",\n      \"contact_url\": null,\n      \"description\": \"Julebuldring for alle.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"julebuldring\",\n        \"date\": \"den 22.11.2026\",\n        \"venue\": \"Beta\",\n        \"location\": \"på Beta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

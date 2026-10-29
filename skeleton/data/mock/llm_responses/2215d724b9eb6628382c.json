@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:50:05",
+  "response": "```json\n{\"answers\": {\n  \"category\": {\"choice\": \"outdoor\"},\n  \"music\": {\"value\": false, \"quote\": null},\n  \"sports\": {\"value\": false, \"quote\": null},\n  \"outdoor\": {\"value\": true, \"quote\": \"Fellestur til Lomseggen\"},\n  \"family\": {\"value\": false, \"quote\": null},\n  \"free\": {\"value\": true, \"quote\": \"Turen er gratis\"},\n  \"newcomers\": {\"value\": true, \"quote\": \"åpen for alle\"}\n}}\n```"
+}

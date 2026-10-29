@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:07:26",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"konsert\",\n      \"date\": \"2026-11-27\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Sel samfunnshus\",\n      \"place\": \"Sel\",\n      \"municipality\": \"Sel\",\n      \"category\": \"music\",\n      \"organizer\": \"Nord Sel Jazzdansarklubb\",\n      \"contact_url\": null,\n      \"description\": \"Konsert på Sel samfunnshus med kaffe og kaker.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"konsert\",\n        \"date\": \"fredag 27.11.2026\",\n        \"venue\": \"Sel samfunnshus\",\n        \"location\": \"Sel samfunnshus\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

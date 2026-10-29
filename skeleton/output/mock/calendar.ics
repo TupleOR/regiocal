@@ -1,0 +1,129 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Aktivitetskalender//Walking skeleton//NB
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Aktiviteter i Nord-Gudbrandsdal
+X-WR-TIMEZONE:Europe/Oslo
+X-WR-CALDESC:Kilder: Stedsnavn og adresser © Kartverket (CC BY 4.0)\, http
+ s://www.kartverket.no\, lisens: https://creativecommons.org/licenses/by/4.
+ 0/deed.no. Inneholder data under Norsk lisens for offentlige data (NLOD) t
+ ilgjengeliggjort av Brønnøysundregistrene\, https://data.brreg.no/enhets
+ registeret\, lisens: https://data.norge.no/nlod/no/2.0. Kommunen for hvert
+  arrangement er utledet av denne tjenesten ved oppslag i registrene. Regis
+ tereierne står ikke bak denne tjenesten.
+BEGIN:VTIMEZONE
+TZID:Europe/Oslo
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a12c10f9de0d@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261103T180000
+DTEND;TZID=Europe/Oslo:20261103T210000
+RRULE:FREQ=WEEKLY;UNTIL=20261130T225959Z
+SUMMARY:Sjakklubben Tenkepausen
+LOCATION:Sel bibliotek på Otta
+DESCRIPTION:Arrangør: Sjakklubben Tenkepausen\nSjakklubb for alle nivåer.
+  Brett og brikker finnes.\nhttps://example.org/otta-sjakklubb
+CATEGORIES:culture,newcomers
+URL:https://example.org/otta-sjakklubb
+END:VEVENT
+BEGIN:VEVENT
+UID:1b8c57bb87a7@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261105T180000
+SUMMARY:Kurs i førstehjelp
+LOCATION:Dombås skole\, gymsalen (Dovre)
+DESCRIPTION:Arrangør: Førstehjelpsgjengen Plaster og Puls\nKurs i første
+ hjelp på Dombås skole. Gratis og åpent for alle over 12 år.
+CATEGORIES:course,free,newcomers
+END:VEVENT
+BEGIN:VEVENT
+UID:a239474b8e7a@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261111T190000
+SUMMARY:Strikkekafé
+LOCATION:Heidal bygdahus (Sel)
+DESCRIPTION:Arrangør: Strikkelaget Rett og Vrang\nStrikkekafé på Heidal 
+ bygdahus. Ta med strikketøyet ditt\, kaffe og kaker.
+CATEGORIES:culture,newcomers
+END:VEVENT
+BEGIN:VEVENT
+UID:f99833b3b453@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261114T110000
+DTEND;TZID=Europe/Oslo:20261114T160000
+SUMMARY:Juleutstilling
+LOCATION:Vågå kulturhus\, Vågåmo
+DESCRIPTION:Arrangør: Penselvennene i Vågå\nJuleutstilling med bilder\, 
+ salg av kort og bilder\, kaffe og vafler.
+CATEGORIES:culture,free,newcomers
+END:VEVENT
+BEGIN:VEVENT
+UID:b101614b0634@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261120T193000
+SUMMARY:Visekveld
+LOCATION:Pillarguri Kafe (Sel)
+DESCRIPTION:Arrangør: Visegjengen Strofe\nVisekveld med lokale visesangere
+  og åpen scene.
+CATEGORIES:music,music,newcomers
+END:VEVENT
+BEGIN:VEVENT
+UID:fe05734d309a@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261121T100000
+SUMMARY:Turgjengen Toppturen: Fellestur til Lomseggen
+LOCATION:Fossbergom kyrkje\, Lom
+DESCRIPTION:Arrangør: Turgjengen\nFellestur til Lomseggen lørdag 21. nove
+ mber. Ta med mat og drikke\, gode sko og varme klær. Turen er gratis og 
+ åpen for alle.\nhttps://example.org/lom-turlag
+CATEGORIES:outdoor,outdoor,free,newcomers
+URL:https://example.org/lom-turlag
+END:VEVENT
+BEGIN:VEVENT
+UID:80c0208f101c@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261127T210000
+SUMMARY:BLUESAFTEN PÅ DOMBÅS
+LOCATION:Puben\, Dombås hotell (Dovre)
+DESCRIPTION:Arrangør: Bluesklubben Tolvtakt\nBluesaften med lokale musiker
+ e på Dombås hotell.
+CATEGORIES:music,music
+END:VEVENT
+BEGIN:VEVENT
+UID:6342e7307f80@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261128T120000
+DTEND;TZID=Europe/Oslo:20261128T150000
+SUMMARY:Juleverksted for barn
+LOCATION:peisestua\, Bergomsvegen 40 (Lom)
+DESCRIPTION:Arrangør: Barnegjengen Glitter og Lim\nJuleverksted for barn m
+ ed julepyntlaging og pepperkakebaking.
+CATEGORIES:culture,family,free
+END:VEVENT
+BEGIN:VEVENT
+UID:18dc5b71e2d4@aktivitetskalender
+DTSTAMP:20261030T000000Z
+DTSTART;TZID=Europe/Oslo:20261129T180000
+SUMMARY:Julekonsert
+LOCATION:Lesja kyrkje
+DESCRIPTION:Arrangør: Songlaget Tonefall\nSonglaget Tonefall held julekons
+ ert i Lesja kyrkje. Fri inngang\, kollekt ved utgangen.
+CATEGORIES:music,music,free
+END:VEVENT
+END:VCALENDAR

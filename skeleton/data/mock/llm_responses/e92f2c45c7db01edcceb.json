@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:46:49",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Høstkonserten til Korpset Messingtrøya\",\n      \"date\": \"2026-10-25\",\n      \"start_time\": \"18:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Dombås kirke\",\n      \"place\": \"Dombås\",\n      \"municipality\": \"Dovre\",\n      \"category\": \"music\",\n      \"organizer\": \"Korpset Messingtrøya\",\n      \"contact_url\": null,\n      \"description\": \"Høstkonsert med Korpset Messingtrøya i Dombås kirke.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Høstkonserten til Korpset Messingtrøya\",\n        \"date\": \"søndag 25. oktober\",\n        \"venue\": \"Dombås kirke\",\n        \"location\": \"Dombås kirke\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

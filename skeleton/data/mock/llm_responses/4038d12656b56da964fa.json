@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:47:01",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"kurs i førstehjelp\",\n      \"date\": \"2026-11-05\",\n      \"start_time\": \"18:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Dombås skole, gymsalen\",\n      \"place\": \"Dombås\",\n      \"municipality\": \"Dovre\",\n      \"category\": \"course\",\n      \"organizer\": \"Førstehjelpsgjengen Plaster og Puls\",\n      \"contact_url\": null,\n      \"description\": \"Kurs i førstehjelp på Dombås skole. Gratis og åpent for alle over 12 år.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"kurs i førstehjelp\",\n        \"date\": \"Neste torsdag\",\n        \"venue\": \"Dombås skole, gymsalen\",\n        \"location\": \"Dombås skole, gymsalen\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

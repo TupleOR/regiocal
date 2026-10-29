@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:10:42",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Gjøvik\", \"lookup\": 1, \"match\": \"Gjøvik\", \"reason\": \"Gjøvik is a city in Gjøvik municipality, but it is outside the Nord-Gudbrandsdal region.\"}}\n```"
+}

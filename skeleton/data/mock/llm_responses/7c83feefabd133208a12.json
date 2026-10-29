@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:47:44",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Filmkveld for ungdom!\",\n      \"date\": \"2026-11-13\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Samfunnshuset\",\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"culture\",\n      \"organizer\": \"Filmklubben Rull og Rusk\",\n      \"contact_url\": null,\n      \"description\": \"Filmklubben Rull og Rusk viser film for ungdom mellom 13 og 18 år på Samfunnshuset.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Filmkveld for ungdom!\",\n        \"date\": \"fredag 13.11\",\n        \"venue\": \"Samfunnshuset\",\n        \"location\": \"Samfunnshuset, Otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

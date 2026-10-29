@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:50:11",
+  "response": "```json\n{\"answers\": {\n  \"category\": {\"choice\": \"music\"},\n  \"music\": {\"value\": true, \"quote\": \"blues med lokale musikere\"},\n  \"sports\": {\"value\": false, \"quote\": null},\n  \"outdoor\": {\"value\": false, \"quote\": null},\n  \"family\": {\"value\": false, \"quote\": null},\n  \"free\": {\"value\": false, \"quote\": null},\n  \"newcomers\": {\"value\": false, \"quote\": null}\n}}\n```"
+}

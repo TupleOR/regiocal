@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:08:45",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Tubakveld\",\n      \"date\": \"2026-11-27\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"sel samfunnshus\",\n      \"place\": null,\n      \"municipality\": \"Sel\",\n      \"category\": \"music\",\n      \"organizer\": \"sel samfunnshus\",\n      \"contact_url\": null,\n      \"description\": \"Tubakveld på sel samfunnshus. Ta med tuba og kok-kaffe!\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Tubakveld\",\n        \"date\": \"den 27. november 2026\",\n        \"venue\": \"sel samfunnshus\",\n        \"location\": \"sel samfunnshus\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

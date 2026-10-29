@@ -1,0 +1,14 @@
+{
+  "tool": "search_business",
+  "query": "Pillarguri Kafe",
+  "key": "73c3b3b9780cd0c59be5",
+  "results": [
+    {
+      "name": "Pillarguri Kafe As",
+      "type": "business",
+      "municipality": "Sel",
+      "in_region": true
+    }
+  ],
+  "error": null
+}

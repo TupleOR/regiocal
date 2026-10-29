@@ -1,0 +1,56 @@
+{
+  "tool": "search_place",
+  "query": "Otta",
+  "key": "974a8d283baaea46771f",
+  "results": [
+    {
+      "name": "Otta",
+      "type": "By",
+      "municipality": "Sel",
+      "in_region": true
+    },
+    {
+      "name": "Otta",
+      "type": "Elv",
+      "municipality": "Skjåk",
+      "in_region": true
+    },
+    {
+      "name": "Otta",
+      "type": "Elv",
+      "municipality": "Lom",
+      "in_region": true
+    },
+    {
+      "name": "Otta",
+      "type": "Elv",
+      "municipality": "Vågå",
+      "in_region": true
+    },
+    {
+      "name": "Otta",
+      "type": "Elv",
+      "municipality": "Sel",
+      "in_region": true
+    },
+    {
+      "name": "Otta",
+      "type": "Elv",
+      "municipality": "Sunndal",
+      "in_region": false
+    },
+    {
+      "name": "Otta",
+      "type": "Elv",
+      "municipality": "Rendalen",
+      "in_region": false
+    },
+    {
+      "name": "Ottatunnelen",
+      "type": "Tunnel",
+      "municipality": "Luster",
+      "in_region": false
+    }
+  ],
+  "error": null
+}

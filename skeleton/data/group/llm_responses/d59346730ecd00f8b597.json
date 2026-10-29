@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:11:07",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Sel\", \"lookup\": 1, \"match\": \"Sel Samfunnshus\", \"reason\": \"Sel Samfunnshus is a business in Sel\"}}\n```"
+}

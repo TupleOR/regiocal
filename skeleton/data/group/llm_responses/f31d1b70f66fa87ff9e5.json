@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:09:36",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Fiskekveld\",\n      \"date\": \"2026-11-19\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Pillargurihallen\",\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"other\",\n      \"organizer\": \"Otta fiskelag\",\n      \"contact_url\": null,\n      \"description\": \"Fiskekveld i Pillargurihallen på Otta.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Fiskekveld\",\n        \"date\": \"den 19.11.2026\",\n        \"venue\": \"Pillargurihallen\",\n        \"location\": \"Pillargurihallen på otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

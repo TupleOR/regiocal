@@ -1,0 +1,307 @@
+{
+  "_note": "Answer key for the MOCK dataset (written by Claude for development). One entry per submission file. outcome: published | needs_review | rejected | duplicate.",
+  "submissions": {
+    "001_sjakk.txt": {
+      "outcome": "published",
+      "trap": "regular weekly activity; organisation website kept",
+      "events": [
+        {
+          "title_contains": "sjakk",
+          "start": "2026-11-03T18:00",
+          "municipality": "Sel",
+          "recurrence": "weekly",
+          "contact_url": "https://example.org/otta-sjakklubb"
+        }
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": true
+      }
+    },
+    "002_maleklubb.txt": {
+      "outcome": "published",
+      "events": [
+        {
+          "title_contains": "utstilling",
+          "start": "2026-11-14T11:00",
+          "municipality": "Vågå"
+        }
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": true,
+        "newcomers": false
+      }
+    },
+    "003_kulturhus_program.txt": {
+      "outcome": "duplicate",
+      "trap": "same exhibition as 002, submitted by the venue",
+      "duplicate_of": "002_maleklubb.txt",
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": true,
+        "newcomers": false
+      }
+    },
+    "004_vinstra_konsert.txt": {
+      "outcome": "rejected",
+      "trap": "outside the region (Vinstra is in Nord-Fron); must be confirmed by the place-name register",
+      "issue": "outside_region",
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "005_strikkekafe.txt": {
+      "outcome": "published",
+      "trap": "place name only (Heidal -> Sel)",
+      "events": [
+        {
+          "title_contains": "strikke",
+          "start": "2026-11-11T19:00",
+          "municipality": "Sel"
+        }
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": true
+      }
+    },
+    "006_bokbad.txt": {
+      "outcome": "needs_review",
+      "trap": "missing start time",
+      "issue": "missing_start_time",
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": true,
+        "newcomers": false
+      }
+    },
+    "007_hostkonsert.txt": {
+      "outcome": "rejected",
+      "trap": "date already passed when received",
+      "issue": "in_past",
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "008_kurs_dombas.txt": {
+      "outcome": "published",
+      "trap": "relative date: 'neste torsdag' received Thu 2026-10-29",
+      "events": [
+        {
+          "title_contains": "førstehjelp",
+          "start": "2026-11-05T18:00",
+          "municipality": "Dovre"
+        }
+      ],
+      "category": "course",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": true,
+        "newcomers": true
+      }
+    },
+    "009_songlag.txt": {
+      "outcome": "published",
+      "trap": "nynorsk; contact person with phone and email must not appear",
+      "events": [
+        {
+          "title_contains": "julekonsert",
+          "start": "2026-11-29T18:00",
+          "municipality": "Lesja"
+        }
+      ],
+      "must_not_appear": [
+        "Kari",
+        "Prøvesen",
+        "400 00 000",
+        "kari.provesen@example.org"
+      ],
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": true,
+        "newcomers": false
+      }
+    },
+    "010_styremote.txt": {
+      "outcome": "rejected",
+      "trap": "internal event (board meeting)",
+      "issue": "internal",
+      "category": "meeting",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "011_quiz.txt": {
+      "outcome": "needs_review",
+      "trap": "clash with 012: same hall, same time, different events",
+      "issue": "clash",
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "012_filmkveld.txt": {
+      "outcome": "needs_review",
+      "trap": "clash with 011",
+      "issue": "clash",
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": true,
+        "newcomers": false
+      }
+    },
+    "013_fellestur.txt": {
+      "outcome": "published",
+      "events": [
+        {
+          "title_contains": "lomseggen",
+          "start": "2026-11-21T10:00",
+          "municipality": "Lom",
+          "contact_url": "https://example.org/lom-turlag"
+        }
+      ],
+      "category": "outdoor",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": true,
+        "family": false,
+        "free": true,
+        "newcomers": true
+      }
+    },
+    "014_bluesaften.txt": {
+      "outcome": "published",
+      "trap": "informal social-media style with emojis and 27/11 date format",
+      "events": [
+        {
+          "title_contains": "blues",
+          "start": "2026-11-27T21:00",
+          "municipality": "Dovre"
+        }
+      ],
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": false
+      }
+    },
+    "015_strikkekveld_kafe.txt": {
+      "outcome": "needs_review",
+      "trap": "venue is a café not found in any register, no place named",
+      "issue": [
+        "unknown_location",
+        "unverified_location"
+      ],
+      "category": "culture",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": true
+      }
+    },
+    "016_juleverksted_adresse.txt": {
+      "outcome": "published",
+      "trap": "street address only (a hotel's public address); must be placed via the address register",
+      "events": [
+        {
+          "title_contains": "juleverksted",
+          "start": "2026-11-28T12:00",
+          "municipality": "Lom"
+        }
+      ],
+      "category": "course",
+      "tags": {
+        "music": false,
+        "sports": false,
+        "outdoor": false,
+        "family": true,
+        "free": true,
+        "newcomers": false
+      }
+    },
+    "017_visekveld.txt": {
+      "outcome": "published",
+      "trap": "business name only (a café in Otta); must be placed via a register",
+      "events": [
+        {
+          "title_contains": "visekveld",
+          "start": "2026-11-20T19:30",
+          "municipality": "Sel"
+        }
+      ],
+      "category": "music",
+      "tags": {
+        "music": true,
+        "sports": false,
+        "outdoor": false,
+        "family": false,
+        "free": false,
+        "newcomers": true
+      }
+    }
+  }
+}

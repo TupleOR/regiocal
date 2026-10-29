@@ -1,0 +1,534 @@
+{
+  "llm": "replay (saved responses)",
+  "submissions": [
+    {
+      "source_ref": "inbox/001 LKF.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "kaffekveld",
+          "date": "2026-11-19",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Bjorli",
+          "place": "Bjorli",
+          "municipality": "Lesja",
+          "category": "meeting",
+          "organizer": "Lesja kaffeklubb",
+          "contact_url": null,
+          "description": "Kaffekveld på Bjorli. Ta med kaffe og godt humør!",
+          "is_public": true,
+          "evidence": {
+            "title": "kaffekveld",
+            "date": "den 19.11.2026",
+            "venue": "Bjorli",
+            "location": "Bjorli"
+          }
+        }
+      ],
+      "notes": "Contact information for a person is not included.",
+      "error": null
+    },
+    {
+      "source_ref": "inbox/002 Julebuldring.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "julebuldring",
+          "date": "2026-11-22",
+          "start_time": "18:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Beta",
+          "place": null,
+          "municipality": null,
+          "category": "sports",
+          "organizer": "Klatreklubben Krittpose",
+          "contact_url": null,
+          "description": "Julebuldring for alle.",
+          "is_public": true,
+          "evidence": {
+            "title": "julebuldring",
+            "date": "den 22.11.2026",
+            "venue": "Beta",
+            "location": "på Beta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/003 NSJDK.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "konsert",
+          "date": "2026-11-27",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Sel samfunnshus",
+          "place": "Sel",
+          "municipality": "Sel",
+          "category": "music",
+          "organizer": "Nord Sel Jazzdansarklubb",
+          "contact_url": null,
+          "description": "Konsert på Sel samfunnshus med kaffe og kaker.",
+          "is_public": true,
+          "evidence": {
+            "title": "konsert",
+            "date": "fredag 27.11.2026",
+            "venue": "Sel samfunnshus",
+            "location": "Sel samfunnshus"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/004 blabla.txt",
+      "received": "2026-10-27",
+      "events": [],
+      "notes": "Submission contains no event information.",
+      "error": null
+    },
+    {
+      "source_ref": "inbox/005 bblg.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "jegerstafetten 2027",
+          "date": "2027-05-05",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": null,
+          "place": null,
+          "municipality": null,
+          "category": "sports",
+          "organizer": "Bredebygden løpegruppe",
+          "contact_url": null,
+          "description": "Jegerstafetten 2027 er åpen for alle aldre.",
+          "is_public": true,
+          "evidence": {
+            "title": "jegerstafetten 2027",
+            "date": "den 05.05.2027",
+            "venue": null,
+            "location": null
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/006 rsfl.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "fluebinderkonkuranse",
+          "date": "2026-11-14",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Amfi Otta",
+          "place": "Otta",
+          "municipality": "Sel",
+          "category": "sports",
+          "organizer": "Rondane snøggfiskarlag",
+          "contact_url": null,
+          "description": "Fluebinderkonkuranse arrangert av Rondane snøggfiskarlag.",
+          "is_public": true,
+          "evidence": {
+            "title": "fluebinderkonkuranse",
+            "date": "den 14.november",
+            "venue": "Amfi Otta",
+            "location": "Amfi Otta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/007 sfd.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "amcar treff",
+          "date": null,
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Kommunehuset",
+          "place": "Vinstra",
+          "municipality": null,
+          "category": "other",
+          "organizer": "Sjoa fisk og diesel",
+          "contact_url": null,
+          "description": null,
+          "is_public": true,
+          "evidence": {
+            "title": "amcar treff",
+            "date": null,
+            "venue": "Kommunehuset",
+            "location": "Vinstra ved Kommunehuset"
+          }
+        }
+      ],
+      "notes": "No date or time given.",
+      "error": null
+    },
+    {
+      "source_ref": "inbox/008 sfd2.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "amcar treff",
+          "date": null,
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Kommunehuset",
+          "place": "Vinstra",
+          "municipality": null,
+          "category": "other",
+          "organizer": "Sjoa fisk og diesel",
+          "contact_url": null,
+          "description": null,
+          "is_public": true,
+          "evidence": {
+            "title": "amcar treff",
+            "date": null,
+            "venue": "Kommunehuset",
+            "location": "Vinstra ved Kommunehuset"
+          }
+        }
+      ],
+      "notes": "No date or time given.",
+      "error": null
+    },
+    {
+      "source_ref": "inbox/009 hsjd.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "Hamar speedflyer og jazz ensemble",
+          "date": "2028-04-15",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Gjøvik",
+          "place": "Gjøvik",
+          "municipality": null,
+          "category": "music",
+          "organizer": "Hamar speedflyer og jazz ensemble",
+          "contact_url": null,
+          "description": "Hamar speedflyer og jazz ensemble samles på Gjøvik.",
+          "is_public": true,
+          "evidence": {
+            "title": "Hamar speedflyer og jazz ensemble",
+            "date": "den 15.04.28",
+            "venue": "Gjøvik",
+            "location": "Gjøvik"
+          }
+        }
+      ],
+      "notes": "Date is in the future, but year is missing. Assuming 2028.",
+      "error": null
+    },
+    {
+      "source_ref": "inbox/010 vmf.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "Valdres moseplokkerforening møtes",
+          "date": "2027-04-14",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Beitosdølen",
+          "place": null,
+          "municipality": null,
+          "category": "meeting",
+          "organizer": "Valdres moseplokkerforening",
+          "contact_url": null,
+          "description": "Møte for kaffe og kaker.",
+          "is_public": true,
+          "evidence": {
+            "title": "Valdres moseplokkerforening møtes",
+            "date": "14.april 2027",
+            "venue": "Beitosdølen",
+            "location": "Beitosdølen"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/011 sfkk.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "trening i Namsos",
+          "date": "2027-05-01",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": null,
+          "place": "Namsos",
+          "municipality": null,
+          "category": "sports",
+          "organizer": "Sognefjellets klatrekamerater og fiskarlaug",
+          "contact_url": null,
+          "description": "Årets første trening.",
+          "is_public": true,
+          "evidence": {
+            "title": "trening i Namsos",
+            "date": "i mai neste år",
+            "venue": null,
+            "location": "i Namsos"
+          }
+        }
+      ],
+      "notes": "Namsos is not in Nord-Gudbrandsdal. Date is resolved to 2027-05-01.",
+      "error": null
+    },
+    {
+      "source_ref": "inbox/012 tuba.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "Tubakveld",
+          "date": "2026-11-27",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "sel samfunnshus",
+          "place": null,
+          "municipality": "Sel",
+          "category": "music",
+          "organizer": "sel samfunnshus",
+          "contact_url": null,
+          "description": "Tubakveld på sel samfunnshus. Ta med tuba og kok-kaffe!",
+          "is_public": true,
+          "evidence": {
+            "title": "Tubakveld",
+            "date": "den 27. november 2026",
+            "venue": "sel samfunnshus",
+            "location": "sel samfunnshus"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/013 rfsk.txt",
+      "received": "2026-10-27",
+      "events": [
+        {
+          "title": "Buldring på Beta",
+          "date": "2026-11-03",
+          "start_time": "18:00",
+          "end_time": null,
+          "recurrence": "weekly",
+          "venue": "Beta",
+          "place": "Otta",
+          "municipality": "Sel",
+          "category": "sports",
+          "organizer": "Klatreklubben Krittpose",
+          "contact_url": "www.example.org/krittpose",
+          "description": "Buldring på Beta hver tirsdag.",
+          "is_public": true,
+          "evidence": {
+            "title": "Buldring på Beta",
+            "date": "hver tirsdag",
+            "venue": "Beta",
+            "location": "Otta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/014 vaffel.txt",
+      "received": "2026-10-30",
+      "events": [
+        {
+          "title": "vaffeldag i parken",
+          "date": "2026-11-05",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": null,
+          "place": "Otta",
+          "municipality": "Sel",
+          "category": "other",
+          "organizer": "Otta vaffelklubb",
+          "contact_url": null,
+          "description": "Vaffeldag i parken på Otta med mulighet for å hilse på dyr.",
+          "is_public": true,
+          "evidence": {
+            "title": "vaffeldag i parken",
+            "date": "Neste torsdag",
+            "venue": "parken",
+            "location": "parken på Otta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/015 lefse.txt",
+      "received": "2026-10-28",
+      "events": [
+        {
+          "title": "markering av den store lefsedagen",
+          "date": "2026-10-24",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": null,
+          "place": "Otta",
+          "municipality": "Sel",
+          "category": "culture",
+          "organizer": null,
+          "contact_url": null,
+          "description": "Markering av den store lefsedagen på Otta.",
+          "is_public": true,
+          "evidence": {
+            "title": "markering av den store lefsedagen",
+            "date": "24.10.2026",
+            "venue": null,
+            "location": "Otta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/016 strikkar.txt",
+      "received": "2026-10-28",
+      "events": [
+        {
+          "title": "Styremøte for styret i Vågå strikkarlag",
+          "date": "2026-12-15",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": null,
+          "place": null,
+          "municipality": "Vågå",
+          "category": "meeting",
+          "organizer": "Vågå strikkarlag",
+          "contact_url": null,
+          "description": null,
+          "is_public": false,
+          "evidence": {
+            "title": "Styremøte for styret i Vågå strikkarlag",
+            "date": "den 15.12.2026",
+            "venue": null,
+            "location": null
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/017 fiskekveld.txt",
+      "received": "2026-10-28",
+      "events": [
+        {
+          "title": "Fiskekveld",
+          "date": "2026-11-19",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "Pillargurihallen",
+          "place": "Otta",
+          "municipality": "Sel",
+          "category": "other",
+          "organizer": "Otta fiskelag",
+          "contact_url": null,
+          "description": "Fiskekveld i Pillargurihallen på Otta.",
+          "is_public": true,
+          "evidence": {
+            "title": "Fiskekveld",
+            "date": "den 19.11.2026",
+            "venue": "Pillargurihallen",
+            "location": "Pillargurihallen på otta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/018 fiskarkveld.txt",
+      "received": "2026-10-28",
+      "events": [
+        {
+          "title": "Fiskarkveld",
+          "date": "2026-11-19",
+          "start_time": "19:00",
+          "end_time": null,
+          "recurrence": null,
+          "venue": "hallen på otta",
+          "place": "Otta",
+          "municipality": "Sel",
+          "category": "other",
+          "organizer": "Pillargurihallen",
+          "contact_url": null,
+          "description": "Fiskarkveld i hallen på Otta den 19. november.",
+          "is_public": true,
+          "evidence": {
+            "title": "Fiskarkveld",
+            "date": "den 19.11.2026",
+            "venue": "hallen på otta",
+            "location": "hallen på otta"
+          }
+        }
+      ],
+      "notes": null,
+      "error": null
+    },
+    {
+      "source_ref": "inbox/019 burnings.txt",
+      "received": "2026-10-28",
+      "events": [
+        {
+          "title": "Burning",
+          "date": "2026-11-21",
+          "start_time": null,
+          "end_time": null,
+          "recurrence": null,
+          "venue": null,
+          "place": null,
+          "municipality": null,
+          "category": "other",
+          "organizer": null,
+          "contact_url": null,
+          "description": "Burning for amcars og mopeder.",
+          "is_public": true,
+          "evidence": {
+            "title": "Burning",
+            "date": "lørdag 21.11.2026",
+            "venue": null,
+            "location": null
+          }
+        }
+      ],
+      "notes": "No venue or organizer is mentioned.",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:07:29",
+  "response": "```json\n{\n  \"events\": [],\n  \"notes\": \"Submission contains no event information.\"\n}\n```"
+}

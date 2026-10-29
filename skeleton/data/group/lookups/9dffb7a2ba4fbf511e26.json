@@ -1,0 +1,20 @@
+{
+  "tool": "search_place",
+  "query": "Namsos",
+  "key": "9dffb7a2ba4fbf511e26",
+  "results": [
+    {
+      "name": "Namsos",
+      "type": "By",
+      "municipality": "Namsos - nåavmesjenjaelmie",
+      "in_region": false
+    },
+    {
+      "name": "Namsos",
+      "type": "Flyplass",
+      "municipality": "Namsos - nåavmesjenjaelmie",
+      "in_region": false
+    }
+  ],
+  "error": null
+}

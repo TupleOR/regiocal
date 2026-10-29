@@ -1,0 +1,68 @@
+{
+  "passed": false,
+  "checks": [
+    {
+      "check": 1,
+      "name": "schema",
+      "passed": true,
+      "summary": "18 events checked",
+      "problems": []
+    },
+    {
+      "check": 2,
+      "name": "attribution",
+      "passed": true,
+      "summary": "3 published events traced to their submissions",
+      "problems": []
+    },
+    {
+      "check": 3,
+      "name": "region",
+      "passed": true,
+      "summary": "published locations confirmed by: region_list 3",
+      "problems": []
+    },
+    {
+      "check": 4,
+      "name": "dates",
+      "passed": true,
+      "summary": "window 2026-10-30 .. 2026-11-30",
+      "problems": []
+    },
+    {
+      "check": 5,
+      "name": "duplicates",
+      "passed": true,
+      "summary": "no two published events are the same event",
+      "problems": []
+    },
+    {
+      "check": 6,
+      "name": "privacy",
+      "passed": true,
+      "summary": "scanned calendar.md, calendar.ics, events.json, published events",
+      "problems": []
+    },
+    {
+      "check": 7,
+      "name": "outputs",
+      "passed": true,
+      "summary": "events.json, calendar.md and calendar.ics contain every published event and the source credits; UTF-8 intact",
+      "problems": []
+    },
+    {
+      "check": 8,
+      "name": "answer key",
+      "passed": false,
+      "summary": "19 submissions; published: precision 100%, completeness 60%; category as in key 8/10, tags 59/60 (info only)",
+      "problems": [
+        "014 vaffel.txt: expected published, got needs_review ['missing_venue']",
+        "017 fiskekveld.txt: expected published, got needs_review ['clash']",
+        "018 fiskarkveld.txt: expected duplicate, got needs_review ['clash']"
+      ],
+      "warnings": []
+    }
+  ],
+  "precision": 1.0,
+  "completeness": 0.6
+}

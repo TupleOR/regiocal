@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:10:13",
+  "response": "```json\n{\"answer\": {\"municipality\": null, \"lookup\": null, \"match\": null, \"reason\": \"The place name 'Bredebygden' was not found in the place-name register. Without a confirmed location, the municipality cannot be determined.\"}}\n```"
+}

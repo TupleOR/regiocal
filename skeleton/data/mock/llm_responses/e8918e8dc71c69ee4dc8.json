@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:47:32",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"quizkveld\",\n      \"date\": \"2026-11-13\",\n      \"start_time\": \"19:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Samfunnshuset\",\n      \"place\": \"Otta\",\n      \"municipality\": \"Sel\",\n      \"category\": \"other\",\n      \"organizer\": \"Quizklubben Visstnok\",\n      \"contact_url\": null,\n      \"description\": \"Quizkveld på Samfunnshuset på Otta. Lag på 2–4 personer. Inntekten går til ungdomsarbeid.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"quizkveld\",\n        \"date\": \"fredag 13. november\",\n        \"venue\": \"Samfunnshuset\",\n        \"location\": \"Samfunnshuset på Otta\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-29T00:23:57",
+  "response": "```json\n{\"tool\": \"search_place\", \"query\": \"Beta\"}\n```"
+}

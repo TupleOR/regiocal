@@ -1,0 +1,44 @@
+{
+  "tool": "search_place",
+  "query": "Gjøvik",
+  "key": "1977021524060abd9851",
+  "results": [
+    {
+      "name": "Gjøvik",
+      "type": "By",
+      "municipality": "Gjøvik",
+      "in_region": false
+    },
+    {
+      "name": "Gjøvik",
+      "type": "Bruk",
+      "municipality": "Tingvoll",
+      "in_region": false
+    },
+    {
+      "name": "Jøvik",
+      "type": "Gard",
+      "municipality": "Ringsaker",
+      "in_region": false
+    },
+    {
+      "name": "Jøvik",
+      "type": "Gard",
+      "municipality": "Gran",
+      "in_region": false
+    },
+    {
+      "name": "Gjøvik",
+      "type": "Annen kulturdetalj",
+      "municipality": "Våler",
+      "in_region": false
+    },
+    {
+      "name": "Jøvik",
+      "type": "Bruk",
+      "municipality": "Tromsø",
+      "in_region": false
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,623 @@
+{
+  "events": [
+    {
+      "schema_version": "3",
+      "id": "a12c10f9de0d",
+      "title": "Sjakklubben Tenkepausen",
+      "start": "2026-11-03T18:00:00+01:00",
+      "end": "2026-11-03T21:00:00+01:00",
+      "recurrence": "weekly",
+      "venue": "Sel bibliotek på Otta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta, Sel",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "meeting",
+      "organizer": "Sjakklubben Tenkepausen",
+      "contact_url": "https://example.org/otta-sjakklubb",
+      "description": "Sjakklubb for alle nivåer. Brett og brikker finnes.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/001_sjakk.txt",
+      "received": "2026-10-26",
+      "evidence": {
+        "title": "Sjakklubben Tenkepausen",
+        "date": "hver tirsdag",
+        "venue": "Sel bibliotek på Otta",
+        "location": "Sel bibliotek på Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "f99833b3b453",
+      "title": "Juleutstilling",
+      "start": "2026-11-14T11:00:00+01:00",
+      "end": "2026-11-14T16:00:00+01:00",
+      "recurrence": null,
+      "venue": "Vågå kulturhus",
+      "place": "Vågåmo",
+      "municipality": "Vågå",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Vågå",
+        "source": "region_list",
+        "match": "Vågå, Vågåmo",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "culture",
+      "organizer": "Penselvennene i Vågå",
+      "contact_url": null,
+      "description": "Juleutstilling med bilder, salg av kort og bilder, kaffe og vafler.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/002_maleklubb.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "juleutstilling",
+        "date": "Lørdag 14. november",
+        "venue": "Vågå kulturhus",
+        "location": "Vågå kulturhus, Vågåmo"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "6c3af72ccb80",
+      "title": "Utstilling: Penselvennene i Vågå viser fram årets bilder",
+      "start": "2026-11-14T11:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Vågå kulturhus",
+      "place": "Vågå",
+      "municipality": "Vågå",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Vågå",
+        "source": "region_list",
+        "match": "Vågå",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "culture",
+      "organizer": "Penselvennene i Vågå",
+      "contact_url": null,
+      "description": "Utstilling med bilder fra Penselvennene i Vågå.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/003_kulturhus_program.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Utstilling: Penselvennene i Vågå viser fram årets bilder",
+        "date": "Lør 14.11",
+        "venue": "Vågå kulturhus",
+        "location": "Vågå kulturhus i november"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "7768e5b39add",
+      "title": "Konsert med Mannskoret Basstonen",
+      "start": "2026-11-20T19:30:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Sødorp kyrkje",
+      "place": "Vinstra",
+      "municipality": "Nord-Fron",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Nord-Fron",
+        "source": "place_register",
+        "match": "Sødorp",
+        "lookup": "960088928fa2a21eec72",
+        "reason": "Sødorp is a place in Nord-Fron",
+        "searches": [
+          "search_place: Vinstra",
+          "search_place: Sødorp"
+        ]
+      },
+      "category": "music",
+      "organizer": "Mannskoret Basstonen",
+      "contact_url": null,
+      "description": "Konsert med Mannskoret Basstonen i Sødorp kyrkje på Vinstra.",
+      "status": "rejected",
+      "issues": [
+        "outside_region"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/004_vinstra_konsert.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "Konsert med Mannskoret Basstonen",
+        "date": "fredag 20. november",
+        "venue": "Sødorp kyrkje",
+        "location": "Sødorp kyrkje på Vinstra"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "a239474b8e7a",
+      "title": "Strikkekafé",
+      "start": "2026-11-11T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Heidal bygdahus",
+      "place": "Heidal",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Heidal",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "culture",
+      "organizer": "Strikkelaget Rett og Vrang",
+      "contact_url": null,
+      "description": "Strikkekafé på Heidal bygdahus. Ta med strikketøyet ditt, kaffe og kaker.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/005_strikkekafe.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Strikkekafé",
+        "date": "onsdag 11. november",
+        "venue": "Heidal bygdahus",
+        "location": "Heidal bygdahus"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "4f98d2033812",
+      "title": "Bokbad på Lom bibliotek",
+      "start": "2026-11-19T00:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Lom bibliotek",
+      "place": "Lom",
+      "municipality": "Lom",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Lom",
+        "source": "region_list",
+        "match": "Lom",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "culture",
+      "organizer": "Leseringen Bokormen",
+      "contact_url": null,
+      "description": "Lokale forfattere forteller om nye bøker.",
+      "status": "needs_review",
+      "issues": [
+        "missing_start_time"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/006_bokbad.txt",
+      "received": "2026-10-29",
+      "evidence": {
+        "title": "Bokbad på Lom bibliotek",
+        "date": "19. november",
+        "venue": "Lom bibliotek",
+        "location": "Lom bibliotek"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "bb18eae89112",
+      "title": "Høstkonserten til Korpset Messingtrøya",
+      "start": "2026-10-25T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Dombås kirke",
+      "place": "Dombås",
+      "municipality": "Dovre",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Dovre",
+        "source": "region_list",
+        "match": "Dombås",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "music",
+      "organizer": "Korpset Messingtrøya",
+      "contact_url": null,
+      "description": "Høstkonsert med Korpset Messingtrøya i Dombås kirke.",
+      "status": "rejected",
+      "issues": [
+        "in_past"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/007_hostkonsert.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Høstkonserten til Korpset Messingtrøya",
+        "date": "søndag 25. oktober",
+        "venue": "Dombås kirke",
+        "location": "Dombås kirke"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "1b8c57bb87a7",
+      "title": "Kurs i førstehjelp",
+      "start": "2026-11-05T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Dombås skole, gymsalen",
+      "place": "Dombås",
+      "municipality": "Dovre",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Dovre",
+        "source": "region_list",
+        "match": "Dombås",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "course",
+      "organizer": "Førstehjelpsgjengen Plaster og Puls",
+      "contact_url": null,
+      "description": "Kurs i førstehjelp på Dombås skole. Gratis og åpent for alle over 12 år.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/008_kurs_dombas.txt",
+      "received": "2026-10-29",
+      "evidence": {
+        "title": "kurs i førstehjelp",
+        "date": "Neste torsdag",
+        "venue": "Dombås skole, gymsalen",
+        "location": "Dombås skole, gymsalen"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "18dc5b71e2d4",
+      "title": "Julekonsert",
+      "start": "2026-11-29T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Lesja kyrkje",
+      "place": "Lesja",
+      "municipality": "Lesja",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Lesja",
+        "source": "region_list",
+        "match": "Lesja",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "music",
+      "organizer": "Songlaget Tonefall",
+      "contact_url": null,
+      "description": "Songlaget Tonefall held julekonsert i Lesja kyrkje. Fri inngang, kollekt ved utgangen.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/009_songlag.txt",
+      "received": "2026-10-29",
+      "evidence": {
+        "title": "julekonsert",
+        "date": "sundag 29. november",
+        "venue": "Lesja kyrkje",
+        "location": "Lesja kyrkje"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "eaa643f07361",
+      "title": "Styremøte i Idrettslaget Svetteperla",
+      "start": "2026-11-10T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "klubbhuset",
+      "place": "Bismo",
+      "municipality": "Skjåk",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Skjåk",
+        "source": "region_list",
+        "match": "Bismo",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "meeting",
+      "organizer": "Idrettslaget Svetteperla",
+      "contact_url": null,
+      "description": "Styremøte i Idrettslaget Svetteperla. Saksliste kommer.",
+      "status": "rejected",
+      "issues": [
+        "internal"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/010_styremote.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "Styremøte i Idrettslaget Svetteperla",
+        "date": "tirsdag 10. november",
+        "venue": "klubbhuset",
+        "location": "klubbhuset i Bismo"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "ea78f976625c",
+      "title": "Quizkveld",
+      "start": "2026-11-13T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Samfunnshuset",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "other",
+      "organizer": "Quizklubben Visstnok",
+      "contact_url": null,
+      "description": "Quizkveld på Samfunnshuset på Otta. Lag på 2–4 personer. Inntekten går til ungdomsarbeid.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/011_quiz.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "quizkveld",
+        "date": "fredag 13. november",
+        "venue": "Samfunnshuset",
+        "location": "Samfunnshuset på Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "6217aca39571",
+      "title": "Filmkveld for ungdom!",
+      "start": "2026-11-13T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Samfunnshuset",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "culture",
+      "organizer": "Filmklubben Rull og Rusk",
+      "contact_url": null,
+      "description": "Filmklubben Rull og Rusk viser film for ungdom mellom 13 og 18 år på Samfunnshuset.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/012_filmkveld.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Filmkveld for ungdom!",
+        "date": "fredag 13.11",
+        "venue": "Samfunnshuset",
+        "location": "Samfunnshuset, Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "fe05734d309a",
+      "title": "Turgjengen Toppturen: Fellestur til Lomseggen",
+      "start": "2026-11-21T10:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Fossbergom kyrkje",
+      "place": "Lom",
+      "municipality": "Lom",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Lom",
+        "source": "region_list",
+        "match": "Fossbergom, Lom",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "outdoor",
+      "organizer": "Turgjengen",
+      "contact_url": "https://example.org/lom-turlag",
+      "description": "Fellestur til Lomseggen lørdag 21. november. Ta med mat og drikke, gode sko og varme klær. Turen er gratis og åpen for alle.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/013_fellestur.txt",
+      "received": "2026-10-26",
+      "evidence": {
+        "title": "Turgjengen Toppturen: Fellestur til Lomseggen",
+        "date": "lørdag 21. november",
+        "venue": "Fossbergom kyrkje i Lom",
+        "location": "Fossbergom kyrkje i Lom"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "80c0208f101c",
+      "title": "BLUESAFTEN PÅ DOMBÅS",
+      "start": "2026-11-27T21:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Puben, Dombås hotell",
+      "place": "Dombås",
+      "municipality": "Dovre",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Dovre",
+        "source": "region_list",
+        "match": "Dombås",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "music",
+      "organizer": "Bluesklubben Tolvtakt",
+      "contact_url": null,
+      "description": "Bluesaften med lokale musikere på Dombås hotell.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/014_bluesaften.txt",
+      "received": "2026-10-30",
+      "evidence": {
+        "title": "🎶 BLUESAFTEN PÅ DOMBÅS 🎶",
+        "date": "Fredag 27/11",
+        "venue": "Puben, Dombås hotell",
+        "location": "Dombås hotell"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "f471d064c962",
+      "title": "Strikkekveld",
+      "start": "2026-11-12T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Kaffebrenneriet",
+      "place": null,
+      "municipality": null,
+      "location": {
+        "status": "unknown",
+        "municipality": null,
+        "source": "agent_guess",
+        "match": null,
+        "lookup": null,
+        "reason": "The venue 'Kaffebrenneriet' is not found in the business register. The submission does not contain any place names that can be looked up.",
+        "searches": [
+          "search_business: Kaffebrenneriet"
+        ]
+      },
+      "category": "other",
+      "organizer": "Strikkeklubben Masker og Maskot",
+      "contact_url": null,
+      "description": "Strikkekveld på Kaffebrenneriet. Ta med garn og pinner, kaffe er inkludert. Alle er velkomne.",
+      "status": "needs_review",
+      "issues": [
+        "unknown_location"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/015_strikkekveld_kafe.txt",
+      "received": "2026-10-30",
+      "evidence": {
+        "title": "Strikkekveld",
+        "date": "torsdag 12. november",
+        "venue": "Kaffebrenneriet",
+        "location": "Kaffebrenneriet"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "6342e7307f80",
+      "title": "Juleverksted for barn",
+      "start": "2026-11-28T12:00:00+01:00",
+      "end": "2026-11-28T15:00:00+01:00",
+      "recurrence": null,
+      "venue": "peisestua, Bergomsvegen 40",
+      "place": null,
+      "municipality": "Lom",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Lom",
+        "source": "address_register",
+        "match": "Bergomsvegen 40, 2686 Lom",
+        "lookup": "23a712c0248fd28841e9",
+        "reason": "Bergomsvegen 40 is an address in Lom",
+        "searches": [
+          "search_address: Bergomsvegen 40"
+        ]
+      },
+      "category": "culture",
+      "organizer": "Barnegjengen Glitter og Lim",
+      "contact_url": null,
+      "description": "Juleverksted for barn med julepyntlaging og pepperkakebaking.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/016_juleverksted_adresse.txt",
+      "received": "2026-10-30",
+      "evidence": {
+        "title": "Juleverksted for barn",
+        "date": "lørdag 28. november",
+        "venue": "peisestua, Bergomsvegen 40",
+        "location": "Bergomsvegen 40"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "b101614b0634",
+      "title": "Visekveld",
+      "start": "2026-11-20T19:30:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Pillarguri Kafe",
+      "place": null,
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "business_register",
+        "match": "Pillarguri Kafe As",
+        "lookup": "73c3b3b9780cd0c59be5",
+        "reason": "Pillarguri Kafe is located in Sel municipality.",
+        "searches": [
+          "search_business: Pillarguri Kafe"
+        ]
+      },
+      "category": "music",
+      "organizer": "Visegjengen Strofe",
+      "contact_url": null,
+      "description": "Visekveld med lokale visesangere og åpen scene.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/017_visekveld.txt",
+      "received": "2026-10-29",
+      "evidence": {
+        "title": "Visekveld",
+        "date": "fredag 20. november",
+        "venue": "Pillarguri Kafe",
+        "location": "Pillarguri Kafe"
+      }
+    }
+  ],
+  "unprocessed": []
+}

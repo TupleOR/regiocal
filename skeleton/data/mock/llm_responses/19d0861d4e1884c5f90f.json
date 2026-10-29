@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:48:20",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Strikkekveld\",\n      \"date\": \"2026-11-12\",\n      \"start_time\": \"18:00\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Kaffebrenneriet\",\n      \"place\": null,\n      \"municipality\": null,\n      \"category\": \"other\",\n      \"organizer\": \"Strikkeklubben Masker og Maskot\",\n      \"contact_url\": null,\n      \"description\": \"Strikkekveld på Kaffebrenneriet. Ta med garn og pinner, kaffe er inkludert. Alle er velkomne.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Strikkekveld\",\n        \"date\": \"torsdag 12. november\",\n        \"venue\": \"Kaffebrenneriet\",\n        \"location\": \"Kaffebrenneriet\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

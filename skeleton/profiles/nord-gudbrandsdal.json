@@ -1,0 +1,105 @@
+{
+  "id": "nord-gudbrandsdal",
+  "name": "Nord-Gudbrandsdal",
+  "county": "Innlandet",
+  "description": "The six municipalities of the Nord-Gudbrandsdal regional council.",
+  "municipalities": [
+    "Dovre",
+    "Lesja",
+    "Lom",
+    "Sel",
+    "Skjåk",
+    "Vågå"
+  ],
+  "municipality_numbers": {
+    "Dovre": "3431",
+    "Lesja": "3432",
+    "Skjåk": "3433",
+    "Lom": "3434",
+    "Vågå": "3435",
+    "Sel": "3437"
+  },
+  "places": {
+    "Otta": "Sel",
+    "Heidal": "Sel",
+    "Sjoa": "Sel",
+    "Høvringen": "Sel",
+    "Mysusæter": "Sel",
+    "Selsverket": "Sel",
+    "Dombås": "Dovre",
+    "Hjerkinn": "Dovre",
+    "Lesjaskog": "Lesja",
+    "Bjorli": "Lesja",
+    "Fossbergom": "Lom",
+    "Bøverdalen": "Lom",
+    "Bismo": "Skjåk",
+    "Vågåmo": "Vågå",
+    "Lalm": "Vågå"
+  },
+  "timezone": "Europe/Oslo",
+  "output_language": "nb",
+  "categories": {
+    "music": {
+      "nb": "Musikk",
+      "description": "concert, choir, band, singing, music night"
+    },
+    "sports": {
+      "nb": "Idrett",
+      "description": "training, match, race, exercise"
+    },
+    "culture": {
+      "nb": "Kultur",
+      "description": "exhibition, theatre, film, reading, crafts, games such as chess or quiz, social evening"
+    },
+    "course": {
+      "nb": "Kurs",
+      "description": "course, lecture, workshop, learning something"
+    },
+    "outdoor": {
+      "nb": "Friluftsliv",
+      "description": "hike, trip, outdoor activity"
+    },
+    "meeting": {
+      "nb": "Møte",
+      "description": "meeting, annual meeting, information meeting"
+    },
+    "other": {
+      "nb": "Annet",
+      "description": "none of the above"
+    }
+  },
+  "tags": {
+    "music": {
+      "nb": "Musikk",
+      "statement": "The activity involves music (concert, choir, band or singing)."
+    },
+    "sports": {
+      "nb": "Idrett og trening",
+      "statement": "The activity involves sport, exercise or physical activity."
+    },
+    "outdoor": {
+      "nb": "Ute",
+      "statement": "The activity takes place outdoors."
+    },
+    "family": {
+      "nb": "For barn og familier",
+      "statement": "The activity is aimed at or suitable for children and families."
+    },
+    "free": {
+      "nb": "Gratis",
+      "statement": "The text explicitly says that taking part is free (e.g. 'gratis', 'fri entré', 'fri inngang').",
+      "needs_quote": true,
+      "cues": ["gratis", "fri entré", "fri entre", "fri inngang", "gratis inngang", "ingen inngangspengar",
+               "ingen inngangspenger", "ingen billett", "koster ingenting", "kostar ingenting", "kostnadsfritt"]
+    },
+    "newcomers": {
+      "nb": "Nye deltakere velkommen",
+      "statement": "The text explicitly welcomes new participants or members (e.g. 'nye medlemmer velkommen', 'alle er velkomne').",
+      "needs_quote": true,
+      "cues": ["velkommen", "velkomne", "velkomen", "nye medlemmer", "nye medlemar", "for alle",
+               "nybegynner", "nybegynnarar", "nybegynnere", "nye deltakere", "nye deltakarar"]
+    }
+  },
+  "window_days": 31,
+  "sources_note": "Municipalities and numbers: Kartverket municipality list (ws.geonorge.no/kommuneinfo). Places: checked against Kartverket's place-name register (api.kartverket.no/stedsnavn) on 2026-10-27."
+}

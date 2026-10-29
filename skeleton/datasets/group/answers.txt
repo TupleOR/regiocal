@@ -1,0 +1,72 @@
+001 LKF.txt: published. "Kaffekveld", 19.11.2026, Bjorli. Category: Social. Tags: social, coffee. Trap: place name only (Bjorli -> Lesja), contact person.
+
+
+002 julebuldring.txt: Published. "Julebuldring", 22.12.2026, "Beta". Category: Klatring,climbing , buldring, sosialt. 
+
+003 NSJDK.txt: PUblished. " Jazzkonsert", 04.01.2027, "Sel samfunnshus". Category: Music, social
+
+004 blabla.txt: Rejected. DOesnt contain any information
+
+005 bblg: Published. "Jegerstafetten", " 05.05.2027, "Bredebygden", "sel kommune","bredebygden-lopegruppe@example.org"  Category: SPorts, running. 
+
+006 rsfl: Published. "Fluebinderkonkuranse", "04.12.2027", "Amfi Otta", "Sel kommune", category: Fishing, nature, social.
+
+007 sfd.txt: needs_review."Missing date",  "Amcar treff", "Sjoa fisk og diesel", "Vinstra", category: Cars
+
+008 sfd2.txt: duplicate
+
+009 hsjd.txt: Rejected. outside the region
+
+010 vmf.txt: Rejected. outside the region. Missing date
+
+011 sfkk.txt: Rejected. Outside the region. Missing date.
+
+012 tuba.txt: Needs review. Same date as NSJDK.txt. 
+
+013 rfsk.txt: Published. Weekly first occurance after 28.10.2026
+
+014 vaffel.txt: Published. 05.11.2027 at 19:00
+
+015 lefse.txt: rejected, in_past
+
+016 strikkar.txt: rejected, internal
+
+017 fiskekveld.txt: Published
+
+018 fiskarkveld.txt: Duplicate of 017
+
+019 burnings.txt:needs review, missing_start_time
+# ---------------------------------------------------------------------------------------------
+# Changes made by Claude on A's request (28.10), so the answers follow the system's rules.
+# The lines above are A's original answers; expected.json is the final answer key.
+#
+# Submissions (texts otherwise unchanged):
+#   00 rsfl.txt   deleted (identical to 006, no answer)
+#   001  19.11.2026 -> 19.11.2026 klokken 19.00                  (needed a start time)
+#   002  22.12.2026 -> 22.11.2026 klokken 18.00                  (inside the 31-day window)
+#   003  fredag 4.01.2027 -> fredag 27.11.2026 klokken 19.00     (window; same time as 012 = clash test)
+#   006  4.desember -> 14.november                               (window)
+#   012  4. januar 2027 -> 27. november 2026 klokken 19.00       (window; clash with 003)
+#
+# Answers:
+#   001 published, Lesja, 19.11 19:00; Oppdiktet, Conny, 1234 must not appear; culture
+#   002 needs review: the venue "Beta" can't be placed; sports; tags sports, newcomers
+#   003 + 012 needs review: clash (same hall, same time); music
+#   004 rejected: no event
+#   005 rejected: outside the window (May 2027), kept as an "announced too early" case
+#   006 published, Sel (Amfi Otta), 14.11 19:00; culture
+#   007 + 008 rejected: no date, Vinstra outside the region (rejected events are not de-duplicated)
+#   009 / 010 / 011 rejected: outside the region (010 also has a date: 14 April 2027)
+
+# Changes to 013-019 made by Claude on A's request (28.10):
+#   013  "på beta" -> "på Beta på Otta" (a place the system can find); added "Arr: Klatreklubben Krittpose."
+#   014  added "Arr: Otta vaffelklubb." (an organiser is required); date 05.11.2027 in the answer -> 05.11.2026
+#   017  added "klokken 19.00" and "Arr: Otta fiskelag."
+#   018  added "klokken 19.00" and "Arr: Pillargurihallen." (same event, sent by the venue)
+#   019  added the date "lørdag 21.11.2026" (with no date at all it would be rejected, not reviewed)
+#   Start of 013: first Tuesday on or after 30.10 = 03.11.2026 18:00.
+
+# Changes made by Claude on A's request (29.10), before publishing on GitHub:
+#   002, 013  the club name -> "Klatreklubben Krittpose" (the original might be a real club)
+#   013       the web address -> www.example.org/krittpose (the original was a domain anyone could register)
+#   005       the e-mail address -> bredebygden-lopegruppe@example.org (same reason; also in A's answer above)

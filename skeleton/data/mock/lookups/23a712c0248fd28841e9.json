@@ -1,0 +1,20 @@
+{
+  "tool": "search_address",
+  "query": "Bergomsvegen 40",
+  "key": "23a712c0248fd28841e9",
+  "results": [
+    {
+      "name": "Bergomsvegen 40, 2686 Lom",
+      "type": "address",
+      "municipality": "Lom",
+      "in_region": true
+    },
+    {
+      "name": "Bergomsvegen 11, 2686 Lom",
+      "type": "address",
+      "municipality": "Lom",
+      "in_region": true
+    }
+  ],
+  "error": null
+}

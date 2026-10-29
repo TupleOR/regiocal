@@ -1,0 +1,101 @@
+{
+  "schema_version": "1",
+  "region": "Nord-Gudbrandsdal",
+  "municipalities": [
+    "Dovre",
+    "Lesja",
+    "Lom",
+    "Sel",
+    "Skjåk",
+    "Vågå"
+  ],
+  "period": {
+    "from": "2026-10-30",
+    "to": "2026-11-30"
+  },
+  "categories": {
+    "music": "Musikk",
+    "sports": "Idrett",
+    "culture": "Kultur",
+    "course": "Kurs",
+    "outdoor": "Friluftsliv",
+    "meeting": "Møte",
+    "other": "Annet"
+  },
+  "tags": {
+    "music": "Musikk",
+    "sports": "Idrett og trening",
+    "outdoor": "Ute",
+    "family": "For barn og familier",
+    "free": "Gratis",
+    "newcomers": "Nye deltakere velkommen"
+  },
+  "sources": [
+    {
+      "name": "Kartverket",
+      "data": "stedsnavn og adresser",
+      "licence": "CC BY 4.0",
+      "licence_url": "https://creativecommons.org/licenses/by/4.0/deed.no",
+      "source_url": "https://www.kartverket.no",
+      "credit": "Stedsnavn og adresser © Kartverket (CC BY 4.0)"
+    },
+    {
+      "name": "Brønnøysundregistrene",
+      "data": "Enhetsregisteret",
+      "licence": "NLOD 2.0",
+      "licence_url": "https://data.norge.no/nlod/no/2.0",
+      "source_url": "https://data.brreg.no/enhetsregisteret",
+      "credit": "Inneholder data under Norsk lisens for offentlige data (NLOD) tilgjengeliggjort av Brønnøysundregistrene"
+    }
+  ],
+  "sources_note": "Kommunen for hvert arrangement er utledet av denne tjenesten ved oppslag i registrene. Registereierne står ikke bak denne tjenesten.",
+  "events": [
+    {
+      "id": "78cb30d092fe",
+      "title": "Buldring på Beta",
+      "start": "2026-11-03T18:00:00+01:00",
+      "end": null,
+      "recurrence": "weekly",
+      "venue": "Beta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "category": "sports",
+      "tags": [
+        "sports"
+      ],
+      "organizer": "Klatreklubben Krittpose",
+      "contact_url": null,
+      "description": "Buldring på Beta hver tirsdag."
+    },
+    {
+      "id": "62152ffc6a11",
+      "title": "Fluebinderkonkuranse",
+      "start": "2026-11-14T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Amfi Otta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "category": "culture",
+      "tags": [],
+      "organizer": "Rondane snøggfiskarlag",
+      "contact_url": null,
+      "description": "Fluebinderkonkuranse arrangert av Rondane snøggfiskarlag."
+    },
+    {
+      "id": "fdd567712a07",
+      "title": "Kaffekveld",
+      "start": "2026-11-19T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Bjorli",
+      "place": "Bjorli",
+      "municipality": "Lesja",
+      "category": "culture",
+      "tags": [],
+      "organizer": "Lesja kaffeklubb",
+      "contact_url": null,
+      "description": "Kaffekveld på Bjorli. Ta med kaffe og godt humør!"
+    }
+  ]
+}

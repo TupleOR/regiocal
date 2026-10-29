@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:11:11",
+  "response": "```json\n{\"answer\": {\"municipality\": \"Vågå\", \"lookup\": 0, \"match\": \"Vågå\", \"reason\": \"The submission explicitly mentions 'Vågå strikkarlag', indicating the event takes place in Vågå municipality.\"}}\n```"
+}

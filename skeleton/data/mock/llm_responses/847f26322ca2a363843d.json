@@ -1,0 +1,6 @@
+{
+  "provider": "ollama",
+  "model": "gemma3-27b-local",
+  "saved_at": "2026-10-28T23:48:41",
+  "response": "```json\n{\n  \"events\": [\n    {\n      \"title\": \"Visekveld\",\n      \"date\": \"2026-11-20\",\n      \"start_time\": \"19:30\",\n      \"end_time\": null,\n      \"recurrence\": null,\n      \"venue\": \"Pillarguri Kafe\",\n      \"place\": null,\n      \"municipality\": null,\n      \"category\": \"music\",\n      \"organizer\": \"Visegjengen Strofe\",\n      \"contact_url\": null,\n      \"description\": \"Visekveld med lokale visesangere og åpen scene.\",\n      \"is_public\": true,\n      \"evidence\": {\n        \"title\": \"Visekveld\",\n        \"date\": \"fredag 20. november\",\n        \"venue\": \"Pillarguri Kafe\",\n        \"location\": \"Pillarguri Kafe\"\n      }\n    }\n  ],\n  \"notes\": null\n}\n```"
+}

@@ -1,0 +1,712 @@
+{
+  "events": [
+    {
+      "schema_version": "3",
+      "id": "fdd567712a07",
+      "title": "Kaffekveld",
+      "start": "2026-11-19T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Bjorli",
+      "place": "Bjorli",
+      "municipality": "Lesja",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Lesja",
+        "source": "region_list",
+        "match": "Bjorli",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "meeting",
+      "organizer": "Lesja kaffeklubb",
+      "contact_url": null,
+      "description": "Kaffekveld på Bjorli. Ta med kaffe og godt humør!",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/001 LKF.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "kaffekveld",
+        "date": "den 19.11.2026",
+        "venue": "Bjorli",
+        "location": "Bjorli"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "2adc1ebb3b1e",
+      "title": "Julebuldring",
+      "start": "2026-11-22T18:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Beta",
+      "place": null,
+      "municipality": null,
+      "location": {
+        "status": "unknown",
+        "municipality": null,
+        "source": "agent_guess",
+        "match": null,
+        "lookup": null,
+        "reason": "Neither the business register nor the place-name register contain 'Beta'. Without a confirmed location, the municipality cannot be determined.",
+        "searches": [
+          "search_business: Beta",
+          "search_place: Beta"
+        ]
+      },
+      "category": "sports",
+      "organizer": "Klatreklubben Krittpose",
+      "contact_url": null,
+      "description": "Julebuldring for alle.",
+      "status": "needs_review",
+      "issues": [
+        "unknown_location"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/002 Julebuldring.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "julebuldring",
+        "date": "den 22.11.2026",
+        "venue": "Beta",
+        "location": "på Beta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "a03a706775b8",
+      "title": "Konsert",
+      "start": "2026-11-27T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Sel samfunnshus",
+      "place": "Sel",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Sel",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "music",
+      "organizer": "Nord Sel Jazzdansarklubb",
+      "contact_url": null,
+      "description": "Konsert på Sel samfunnshus med kaffe og kaker.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/003 NSJDK.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "konsert",
+        "date": "fredag 27.11.2026",
+        "venue": "Sel samfunnshus",
+        "location": "Sel samfunnshus"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "802973fe8d7a",
+      "title": "Jegerstafetten 2027",
+      "start": "2027-05-05T00:00:00+02:00",
+      "end": null,
+      "recurrence": null,
+      "venue": null,
+      "place": null,
+      "municipality": null,
+      "location": {
+        "status": "unknown",
+        "municipality": null,
+        "source": "agent_guess",
+        "match": null,
+        "lookup": null,
+        "reason": "The place name 'Bredebygden' was not found in the place-name register. Without a confirmed location, the municipality cannot be determined.",
+        "searches": [
+          "search_place: Bredebygden"
+        ]
+      },
+      "category": "sports",
+      "organizer": "Bredebygden løpegruppe",
+      "contact_url": null,
+      "description": "Jegerstafetten 2027 er åpen for alle aldre.",
+      "status": "rejected",
+      "issues": [
+        "unknown_location",
+        "outside_window",
+        "missing_start_time",
+        "missing_venue"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/005 bblg.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "jegerstafetten 2027",
+        "date": "den 05.05.2027"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "62152ffc6a11",
+      "title": "Fluebinderkonkuranse",
+      "start": "2026-11-14T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Amfi Otta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "sports",
+      "organizer": "Rondane snøggfiskarlag",
+      "contact_url": null,
+      "description": "Fluebinderkonkuranse arrangert av Rondane snøggfiskarlag.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/006 rsfl.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "fluebinderkonkuranse",
+        "date": "den 14.november",
+        "venue": "Amfi Otta",
+        "location": "Amfi Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "5a63a3e78945",
+      "title": "Amcar treff",
+      "start": null,
+      "end": null,
+      "recurrence": null,
+      "venue": "Kommunehuset",
+      "place": "Vinstra",
+      "municipality": "Nord-Fron",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Nord-Fron",
+        "source": "place_register",
+        "match": "Vinstra",
+        "lookup": "26a34d61a4d61c8e4fb9",
+        "reason": "Vinstra is a place in Nord-Fron, according to the place-name register.",
+        "searches": [
+          "search_place: Vinstra",
+          "search_address: Kommunehuset Vinstra"
+        ]
+      },
+      "category": "other",
+      "organizer": "Sjoa fisk og diesel",
+      "contact_url": null,
+      "description": null,
+      "status": "rejected",
+      "issues": [
+        "missing_required",
+        "outside_region"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/007 sfd.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "amcar treff",
+        "venue": "Kommunehuset",
+        "location": "Vinstra ved Kommunehuset"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "149bcbe19ae8",
+      "title": "Amcar treff",
+      "start": null,
+      "end": null,
+      "recurrence": null,
+      "venue": "Kommunehuset",
+      "place": "Vinstra",
+      "municipality": "Nord-Fron",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Nord-Fron",
+        "source": "place_register",
+        "match": "Vinstra",
+        "lookup": "26a34d61a4d61c8e4fb9",
+        "reason": "Vinstra is a place in Nord-Fron, according to the place-name register.",
+        "searches": [
+          "search_place: Vinstra",
+          "search_address: Kommunehuset Vinstra"
+        ]
+      },
+      "category": "other",
+      "organizer": "Sjoa fisk og diesel",
+      "contact_url": null,
+      "description": null,
+      "status": "rejected",
+      "issues": [
+        "missing_required",
+        "outside_region"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/008 sfd2.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "amcar treff",
+        "venue": "Kommunehuset",
+        "location": "Vinstra ved Kommunehuset"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "4eba60950f67",
+      "title": "Hamar speedflyer og jazz ensemble",
+      "start": "2028-04-15T00:00:00+02:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Gjøvik",
+      "place": "Gjøvik",
+      "municipality": "Gjøvik",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Gjøvik",
+        "source": "place_register",
+        "match": "Gjøvik",
+        "lookup": "1977021524060abd9851",
+        "reason": "Gjøvik is a city in Gjøvik municipality, but it is outside the Nord-Gudbrandsdal region.",
+        "searches": [
+          "search_place: Gjøvik"
+        ]
+      },
+      "category": "music",
+      "organizer": "Hamar speedflyer og jazz ensemble",
+      "contact_url": null,
+      "description": "Hamar speedflyer og jazz ensemble samles på Gjøvik.",
+      "status": "rejected",
+      "issues": [
+        "outside_region",
+        "outside_window",
+        "missing_start_time"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/009 hsjd.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "Hamar speedflyer og jazz ensemble",
+        "date": "den 15.04.28",
+        "venue": "Gjøvik",
+        "location": "Gjøvik"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "abd8e9e0cbdb",
+      "title": "Valdres moseplokkerforening møtes",
+      "start": "2027-04-14T00:00:00+02:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Beitosdølen",
+      "place": null,
+      "municipality": null,
+      "location": {
+        "status": "unknown",
+        "municipality": null,
+        "source": "agent_guess",
+        "match": null,
+        "lookup": null,
+        "reason": "Neither the business register nor the place-name register could find 'Beitosdølen'. It is not possible to determine the municipality from this information.",
+        "searches": [
+          "search_business: Beitosdølen",
+          "search_place: Beitosdølen"
+        ]
+      },
+      "category": "meeting",
+      "organizer": "Valdres moseplokkerforening",
+      "contact_url": null,
+      "description": "Møte for kaffe og kaker.",
+      "status": "rejected",
+      "issues": [
+        "unknown_location",
+        "outside_window",
+        "missing_start_time"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/010 vmf.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "Valdres moseplokkerforening møtes",
+        "date": "14.april 2027",
+        "venue": "Beitosdølen",
+        "location": "Beitosdølen"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "4109cd2240c5",
+      "title": "Trening i Namsos",
+      "start": "2027-05-01T00:00:00+02:00",
+      "end": null,
+      "recurrence": null,
+      "venue": null,
+      "place": "Namsos",
+      "municipality": "Namsos - nåavmesjenjaelmie",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Namsos - nåavmesjenjaelmie",
+        "source": "place_register",
+        "match": "Namsos",
+        "lookup": "9dffb7a2ba4fbf511e26",
+        "reason": "Namsos is a town in Namsos municipality, which is outside Nord-Gudbrandsdal.",
+        "searches": [
+          "search_place: Namsos"
+        ]
+      },
+      "category": "sports",
+      "organizer": "Sognefjellets klatrekamerater og fiskarlaug",
+      "contact_url": null,
+      "description": "Årets første trening.",
+      "status": "rejected",
+      "issues": [
+        "outside_region",
+        "outside_window",
+        "missing_start_time",
+        "missing_venue"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/011 sfkk.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "trening i Namsos",
+        "date": "i mai neste år",
+        "location": "i Namsos"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "6dcd4b6cc567",
+      "title": "Tubakveld",
+      "start": "2026-11-27T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "sel samfunnshus",
+      "place": null,
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "business_register",
+        "match": "Sel Samfunnshus",
+        "lookup": "6b5390920f349e7bf90f",
+        "reason": "Sel Samfunnshus is a business in Sel",
+        "searches": [
+          "search_business: sel samfunnshus"
+        ]
+      },
+      "category": "music",
+      "organizer": "sel samfunnshus",
+      "contact_url": null,
+      "description": "Tubakveld på sel samfunnshus. Ta med tuba og kok-kaffe!",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/012 tuba.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "Tubakveld",
+        "date": "den 27. november 2026",
+        "venue": "sel samfunnshus",
+        "location": "sel samfunnshus"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "78cb30d092fe",
+      "title": "Buldring på Beta",
+      "start": "2026-11-03T18:00:00+01:00",
+      "end": null,
+      "recurrence": "weekly",
+      "venue": "Beta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "sports",
+      "organizer": "Klatreklubben Krittpose",
+      "contact_url": null,
+      "description": "Buldring på Beta hver tirsdag.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/013 rfsk.txt",
+      "received": "2026-10-27",
+      "evidence": {
+        "title": "Buldring på Beta",
+        "date": "hver tirsdag",
+        "venue": "Beta",
+        "location": "Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "c92b0bab9710",
+      "title": "Vaffeldag i parken",
+      "start": "2026-11-05T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": null,
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "other",
+      "organizer": "Otta vaffelklubb",
+      "contact_url": null,
+      "description": "Vaffeldag i parken på Otta med mulighet for å hilse på dyr.",
+      "status": "needs_review",
+      "issues": [
+        "missing_venue"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/014 vaffel.txt",
+      "received": "2026-10-30",
+      "evidence": {
+        "title": "vaffeldag i parken",
+        "date": "Neste torsdag",
+        "venue": "parken",
+        "location": "parken på Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "be933a5b7cd1",
+      "title": "Markering av den store lefsedagen",
+      "start": "2026-10-24T00:00:00+02:00",
+      "end": null,
+      "recurrence": null,
+      "venue": null,
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "culture",
+      "organizer": null,
+      "contact_url": null,
+      "description": "Markering av den store lefsedagen på Otta.",
+      "status": "rejected",
+      "issues": [
+        "in_past",
+        "missing_start_time",
+        "missing_venue",
+        "missing_organizer"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/015 lefse.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "markering av den store lefsedagen",
+        "date": "24.10.2026",
+        "location": "Otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "0a1a8ca4e45e",
+      "title": "Styremøte for styret i Vågå strikkarlag",
+      "start": "2026-12-15T00:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": null,
+      "place": null,
+      "municipality": "Vågå",
+      "location": {
+        "status": "suggestion",
+        "municipality": "Vågå",
+        "source": "agent_guess",
+        "match": "Vågå",
+        "lookup": null,
+        "reason": "The submission explicitly mentions 'Vågå strikkarlag', indicating the event takes place in Vågå municipality.",
+        "searches": []
+      },
+      "category": "meeting",
+      "organizer": "Vågå strikkarlag",
+      "contact_url": null,
+      "description": null,
+      "status": "rejected",
+      "issues": [
+        "internal",
+        "unverified_location",
+        "outside_window",
+        "missing_start_time",
+        "missing_venue"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/016 strikkar.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Styremøte for styret i Vågå strikkarlag",
+        "date": "den 15.12.2026"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "6cedeca3b5aa",
+      "title": "Fiskekveld",
+      "start": "2026-11-19T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "Pillargurihallen",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "region_list",
+        "match": "Otta",
+        "lookup": null,
+        "reason": "named in the submission"
+      },
+      "category": "other",
+      "organizer": "Otta fiskelag",
+      "contact_url": null,
+      "description": "Fiskekveld i Pillargurihallen på Otta.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/017 fiskekveld.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Fiskekveld",
+        "date": "den 19.11.2026",
+        "venue": "Pillargurihallen",
+        "location": "Pillargurihallen på otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "c7ac6996a377",
+      "title": "Fiskarkveld",
+      "start": "2026-11-19T19:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": "hallen på otta",
+      "place": "Otta",
+      "municipality": "Sel",
+      "location": {
+        "status": "confirmed",
+        "municipality": "Sel",
+        "source": "place_register",
+        "match": "Otta",
+        "lookup": "974a8d283baaea46771f",
+        "reason": "Otta is a place in Sel, and the earlier step also guessed Sel.",
+        "searches": [
+          "search_address: hallen på otta",
+          "search_place: Otta"
+        ]
+      },
+      "category": "other",
+      "organizer": "Pillargurihallen",
+      "contact_url": null,
+      "description": "Fiskarkveld i hallen på Otta den 19. november.",
+      "status": "published",
+      "issues": [],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/018 fiskarkveld.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Fiskarkveld",
+        "date": "den 19.11.2026",
+        "venue": "hallen på otta",
+        "location": "hallen på otta"
+      }
+    },
+    {
+      "schema_version": "3",
+      "id": "759b5dcd46ca",
+      "title": "Burning",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "recurrence": null,
+      "venue": null,
+      "place": null,
+      "municipality": null,
+      "location": {
+        "status": "unknown",
+        "municipality": null,
+        "source": "agent_guess",
+        "match": "Øya",
+        "lookup": null,
+        "reason": "The place name 'Øya' appears in multiple municipalities outside Nord-Gudbrandsdal. No municipality within the region was found.",
+        "searches": [
+          "search_place: øya"
+        ]
+      },
+      "category": "other",
+      "organizer": null,
+      "contact_url": null,
+      "description": "Burning for amcars og mopeder.",
+      "status": "needs_review",
+      "issues": [
+        "unknown_location",
+        "missing_start_time",
+        "missing_venue",
+        "missing_organizer"
+      ],
+      "duplicate_of": null,
+      "merged_from": [],
+      "source_ref": "inbox/019 burnings.txt",
+      "received": "2026-10-28",
+      "evidence": {
+        "title": "Burning",
+        "date": "lørdag 21.11.2026"
+      }
+    }
+  ],
+  "unprocessed": [
+    {
+      "source_ref": "inbox/004 blabla.txt",
+      "status": "rejected",
+      "issue": "no_event",
+      "detail": "Submission contains no event information."
+    }
+  ]
+}

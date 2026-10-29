@@ -1,6 +1,6 @@
 # Community Activity Data for Nord-Gudbrandsdal
 
-Compulsory 2 (plan and walking skeleton). An agentic workflow that turns activity submissions from local groups in Nord-Gudbrandsdal (Dovre, Lesja, Lom, Sel, Skjåk, Vågå) into checked, structured event data, published as JSON, a Norwegian calendar, an `.ics` file and a local website.
+An agentic workflow that turns activity submissions from local groups in Nord-Gudbrandsdal (Dovre, Lesja, Lom, Sel, Skjåk, Vågå) into checked, structured event data, published as JSON, a Norwegian calendar, an `.ics` file and a local website.
 
 **Start here: [`skeleton/README.md`](skeleton/README.md)** explains how to reproduce the run (`python run.py`, no API key needed), how everything works, and how to check it against the brief.
 
